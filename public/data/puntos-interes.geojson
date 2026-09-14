@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI-001",
+        "nombre": "Colegio cercano",
+        "tipo": "colegio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2749,
+          -19.0508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI-002",
+        "nombre": "Centro de salud cercano",
+        "tipo": "salud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2832,
+          -19.0498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI-003",
+        "nombre": "Parada de transporte",
+        "tipo": "transporte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.279,
+          -19.0581
+        ]
+      }
+    }
+  ]
+}

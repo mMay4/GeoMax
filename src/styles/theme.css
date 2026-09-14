@@ -1,0 +1,33 @@
+:root {
+  --brand-primary: #308056;
+  --brand-primary-dark: #25633f;
+  --brand-primary-soft: #e8f2ec;
+
+  --brand-secondary: #fc8801;
+  --brand-accent: #fad006;
+
+  --surface-main: #fffafa;
+  --surface-white: #ffffff;
+  --surface-soft: #fff5ec;
+
+  --border-main: #ffd1a8;
+  --border-soft: #ffe4cb;
+
+  --text-main: #174b32;
+  --text-dark: #183a29;
+  --text-muted: #6e9d7d;
+
+  --state-sold: #f44336;
+  --state-reserved: #ffb800;
+  --state-available: #4caf50;
+
+  --header-height: 80px;
+  --sidebar-width: 370px;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --shadow-soft: 0 2px 8px rgba(48, 128, 86, 0.08);
+  --shadow-control: 0 3px 12px rgba(0, 0, 0, 0.13);
+}

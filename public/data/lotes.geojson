@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-001",
+        "codigo": "Lote 001",
+        "estado": "disponible",
+        "superficie_m2": 250,
+        "urbanizacion": "Urbanización Demo MAX"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2813,
+              -19.0557
+            ],
+            [
+              -65.2799,
+              -19.0557
+            ],
+            [
+              -65.2799,
+              -19.0544
+            ],
+            [
+              -65.2813,
+              -19.0544
+            ],
+            [
+              -65.2813,
+              -19.0557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-002",
+        "codigo": "Lote 002",
+        "estado": "reservado",
+        "superficie_m2": 250,
+        "urbanizacion": "Urbanización Demo MAX"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2798,
+              -19.0557
+            ],
+            [
+              -65.2784,
+              -19.0557
+            ],
+            [
+              -65.2784,
+              -19.0544
+            ],
+            [
+              -65.2798,
+              -19.0544
+            ],
+            [
+              -65.2798,
+              -19.0557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-003",
+        "codigo": "Lote 003",
+        "estado": "vendido",
+        "superficie_m2": 250,
+        "urbanizacion": "Urbanización Demo MAX"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2783,
+              -19.0557
+            ],
+            [
+              -65.2769,
+              -19.0557
+            ],
+            [
+              -65.2769,
+              -19.0544
+            ],
+            [
+              -65.2783,
+              -19.0544
+            ],
+            [
+              -65.2783,
+              -19.0557
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "L-004",
+        "codigo": "Lote 004",
+        "estado": "disponible",
+        "superficie_m2": 300,
+        "urbanizacion": "Urbanización Demo MAX"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2813,
+              -19.0542
+            ],
+            [
+              -65.2798,
+              -19.0542
+            ],
+            [
+              -65.2798,
+              -19.0528
+            ],
+            [
+              -65.2813,
+              -19.0528
+            ],
+            [
+              -65.2813,
+              -19.0542
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

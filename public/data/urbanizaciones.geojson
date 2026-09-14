@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "URB-001",
+        "nombre": "Urbanización Demo MAX",
+        "ciudad": "Sucre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2817,
+              -19.0561
+            ],
+            [
+              -65.276,
+              -19.0561
+            ],
+            [
+              -65.2756,
+              -19.0515
+            ],
+            [
+              -65.2814,
+              -19.0514
+            ],
+            [
+              -65.2817,
+              -19.0561
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
