@@ -4,33 +4,191 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "URB-001",
-        "nombre": "Urbanización Demo MAX",
-        "ciudad": "Sucre"
+        "id": "URB-KARAPANZA-CORAZON-III",
+        "nombre": "Karapanza de Corazón III",
+        "ciudad": "Sucre",
+        "descripcion": "Urbanización real digitalizada a partir del plano URB. KARAPANZA DE CORAZON III. Todos los lotes de venta cargados inicialmente como vendidos.",
+        "superficie_plano_m2": 14645.16,
+        "sistema_original": "UTM 20S (EPSG:32720); datum WGS84 supuesto para visualización, confirmar en levantamiento",
+        "precision_perimetro": "vértices UTM transcritos del plano; confirmar datum antes de uso catastral",
+        "fuente": "URB.KARAPANZA DE CORAZON III.pdf",
+        "coordenadas_utm": {
+          "V-1": {
+            "este": 264949.395,
+            "norte": 7883987.731
+          },
+          "V-2": {
+            "este": 265039.425,
+            "norte": 7884057.941
+          },
+          "V-3": {
+            "este": 265117.034,
+            "norte": 7883974.502
+          },
+          "V-4": {
+            "este": 265053.002,
+            "norte": 7883868.33
+          }
+        },
+        "url_ubicacion": "https://maps.app.goo.gl/JYJHmesjDmLh1d5Q7?g_st=ac",
+        "coordenada_referencia": [
+          -65.234213,
+          -19.123602
+        ]
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -65.2817,
-              -19.0561
+              -65.23447035,
+              -19.12365944
             ],
             [
-              -65.276,
-              -19.0561
+              -65.23360645,
+              -19.12303579
             ],
             [
-              -65.2756,
-              -19.0515
+              -65.23287922,
+              -19.12379826
             ],
             [
-              -65.2814,
-              -19.0514
+              -65.23350047,
+              -19.12474967
             ],
             [
-              -65.2817,
-              -19.0561
+              -65.23447035,
+              -19.12365944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "URB-MI-FUTURO",
+        "nombre": "Mi Futuro",
+        "ciudad": "Sucre",
+        "descripcion": "Urbanización Mi Futuro, plano de lotificación.",
+        "superficie_plano_m2": 7704.71,
+        "area_lotes_plano_m2": 4869.43,
+        "area_vias_plano_m2": 2835.28,
+        "utm_zona": "20S",
+        "sistema_original": "WGS 84 / UTM zona 20S (EPSG:32720)",
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf (plano de lotificación)",
+        "url_ubicacion": "https://maps.app.goo.gl/7v4X13ZMvFTPyhoz8?g_st=ac",
+        "coordenada_referencia": [
+          -65.1593333333,
+          -19.2017777778
+        ],
+        "perimetro_utm": {
+          "P-1": {
+            "este": 272942.818,
+            "norte": 7875482.396
+          },
+          "P-2": {
+            "este": 272986.274,
+            "norte": 7875482.718
+          },
+          "P-3": {
+            "este": 273038.966,
+            "norte": 7875480.729
+          },
+          "P-4": {
+            "este": 273086.083,
+            "norte": 7875478.95
+          },
+          "P-5": {
+            "este": 273084.328,
+            "norte": 7875447.481
+          },
+          "P-6": {
+            "este": 273082.408,
+            "norte": 7875413.048
+          },
+          "P-7": {
+            "este": 273050.994,
+            "norte": 7875417.072
+          },
+          "P-8": {
+            "este": 273023.487,
+            "norte": 7875420.595
+          },
+          "P-9": {
+            "este": 272997.86,
+            "norte": 7875422.157
+          },
+          "P-10": {
+            "este": 272974.104,
+            "norte": 7875423.605
+          },
+          "P-11": {
+            "este": 272966.059,
+            "norte": 7875440.542
+          },
+          "P-12": {
+            "este": 272952.796,
+            "norte": 7875465.515
+          }
+        },
+        "precision_perimetro": "12 vértices UTM transcritos del cuadro del plano, WGS 84 / 20S."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1595232,
+              -19.20137887
+            ],
+            [
+              -65.15911007,
+              -19.20138082
+            ],
+            [
+              -65.15860942,
+              -19.20140469
+            ],
+            [
+              -65.15816174,
+              -19.20142603
+            ],
+            [
+              -65.15818213,
+              -19.20171003
+            ],
+            [
+              -65.15820444,
+              -19.20202078
+            ],
+            [
+              -65.15850259,
+              -19.20198092
+            ],
+            [
+              -65.15876365,
+              -19.20194603
+            ],
+            [
+              -65.15900708,
+              -19.20192905
+            ],
+            [
+              -65.15923273,
+              -19.20191331
+            ],
+            [
+              -65.15930721,
+              -19.20175945
+            ],
+            [
+              -65.15943034,
+              -19.20153244
+            ],
+            [
+              -65.1595232,
+              -19.20137887
             ]
           ]
         ]

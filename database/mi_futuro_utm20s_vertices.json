@@ -1,0 +1,67 @@
+{
+  "utm_crs": "EPSG:32720",
+  "source": "URB. MI FUTURO HOJA OFICIO.pdf",
+  "vertices": [
+    {
+      "punto": "P-1",
+      "este": 272942.818,
+      "norte": 7875482.396
+    },
+    {
+      "punto": "P-2",
+      "este": 272986.274,
+      "norte": 7875482.718
+    },
+    {
+      "punto": "P-3",
+      "este": 273038.966,
+      "norte": 7875480.729
+    },
+    {
+      "punto": "P-4",
+      "este": 273086.083,
+      "norte": 7875478.95
+    },
+    {
+      "punto": "P-5",
+      "este": 273084.328,
+      "norte": 7875447.481
+    },
+    {
+      "punto": "P-6",
+      "este": 273082.408,
+      "norte": 7875413.048
+    },
+    {
+      "punto": "P-7",
+      "este": 273050.994,
+      "norte": 7875417.072
+    },
+    {
+      "punto": "P-8",
+      "este": 273023.487,
+      "norte": 7875420.595
+    },
+    {
+      "punto": "P-9",
+      "este": 272997.86,
+      "norte": 7875422.157
+    },
+    {
+      "punto": "P-10",
+      "este": 272974.104,
+      "norte": 7875423.605
+    },
+    {
+      "punto": "P-11",
+      "este": 272966.059,
+      "norte": 7875440.542
+    },
+    {
+      "punto": "P-12",
+      "este": 272952.796,
+      "norte": 7875465.515
+    }
+  ],
+  "nota": "No implica certificación de vértices de lotes. El GPS proporcionado está cerca de un lindero."
+}

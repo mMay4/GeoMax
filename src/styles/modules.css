@@ -1,0 +1,178 @@
+/* GeoMax – Módulos y formularios. Paleta original MAX Inversiones: naranja, verde,
+ * amarillo y blanco. No modifica la pantalla de inicio de sesión. */
+.app-shell .gm-sidebar-functions {padding-bottom:12px}
+.app-shell .gm-menu-links {display:flex; flex-direction:column; gap:4px}
+.app-shell .gm-menu-links button {
+  display:flex; align-items:center; gap:9px; width:100%; min-height:35px;
+  padding:8px 9px; border:0; border-radius:8px; background:transparent;
+  text-align:left; color:#325b40; font:600 11px 'Poppins',sans-serif; cursor:pointer;
+}
+.app-shell .gm-menu-links button:hover {background:#fff4e7;color:#a65b00}
+.app-shell .gm-menu-links button.active {background:#eaf5ed;color:#267149;box-shadow:inset 3px 0 0 #FC8801}
+.app-shell .gm-module-panel {
+  position:absolute; z-index:115; top:var(--gm-header-h); right:0; bottom:0;
+  display:flex; flex-direction:column; width:min(450px,calc(100% - 45px));
+  background:#fffdf9; color:#234c35; border-left:1px solid #e9d3b6;
+  box-shadow:-8px 0 28px #182d171d; font:12px 'Poppins',sans-serif;
+}
+.app-shell .gm-module-head {
+  flex:0 0 auto; display:flex; align-items:center; gap:12px; padding:15px 17px;
+  background:#fff8ec; border-bottom:1px solid #eed9bd;
+}
+.app-shell .gm-module-icon {height:38px;width:38px;flex:0 0 auto;display:grid;place-items:center;border-radius:11px;background:#FC8801;color:#fff}
+.app-shell .gm-module-head div {min-width:0;flex:1}
+.app-shell .gm-module-head small {display:block;color:#986d35;letter-spacing:.07em;font-size:9px;font-weight:700}
+.app-shell .gm-module-head h2 {margin:3px 0 0;font-size:17px;line-height:1.3;font-weight:800;color:#24623b}
+.app-shell .gm-module-head .gm-icon-btn {display:grid;place-items:center;width:34px;height:34px;border:1px solid #edd3b0;border-radius:8px;background:white;color:#86551c;cursor:pointer}
+.app-shell .gm-module-content {min-height:0;flex:1;overflow:auto;padding:19px 19px 28px}
+.app-shell .gm-stack {display:flex;flex-direction:column;gap:15px}
+.app-shell .gm-stack > h3,.app-shell .gm-form h3,.app-shell .gm-mini-history h3 {font-size:13px;line-height:1.4;color:#24633f;margin:4px 0 0}
+.app-shell .gm-muted {margin:0;color:#748178;line-height:1.65;font-size:11px}
+.app-shell .gm-stack button,.app-shell .gm-stack input,.app-shell .gm-stack textarea,.app-shell .gm-stack select {font:inherit}
+.app-shell .gm-stack input,.app-shell .gm-stack textarea,.app-shell .gm-stack select {width:100%;padding:10px 11px;border:1px solid #dfded5;border-radius:8px;background:white;color:#234733;outline:none;min-height:38px}
+.app-shell .gm-stack input:focus,.app-shell .gm-stack textarea:focus,.app-shell .gm-stack select:focus{border-color:#FC8801;box-shadow:0 0 0 3px #FC880117}
+.app-shell .gm-form,.app-shell .gm-label {display:flex;flex-direction:column;gap:7px;color:#2c5b40;font-weight:700;font-size:11px}
+.app-shell .gm-form {gap:15px}
+.app-shell .gm-form label {display:flex;flex-direction:column;gap:6px}
+.app-shell .gm-form .gm-checkbox {flex-direction:row;align-items:center}
+.app-shell .gm-form .gm-checkbox input {width:auto;min-height:auto;accent-color:#308056}
+.app-shell .gm-form-card {padding:14px;border:1px solid #efdfc9;background:#fffcf7;border-radius:12px}
+.app-shell .gm-two-col {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.app-shell .gm-primary,.app-shell .gm-secondary,.app-shell .gm-file-label {
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  min-height:34px;padding:8px 11px;border-radius:8px;cursor:pointer;
+  font-weight:700;font-size:11px;line-height:1.4;text-decoration:none;
+}
+.app-shell .gm-primary {border:1px solid #308056;background:#308056;color:white}
+.app-shell .gm-primary:hover {background:#256b47}
+.app-shell .gm-primary:disabled {opacity:.6;cursor:wait}
+.app-shell .gm-secondary {border:1px solid #e7ca9f;background:#fffaf1;color:#8c561b}
+.app-shell .gm-secondary:hover {background:#fff0dc}
+.app-shell .gm-row-wrap,.app-shell .gm-inline-actions {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:9px}
+.app-shell .gm-inline-actions {justify-content:flex-start}
+.app-shell .gm-text-btn {border:0;background:transparent;display:inline-flex;gap:5px;align-items:center;padding:4px;color:#308056;font-weight:700;font-size:11px;cursor:pointer;align-self:flex-start}
+.app-shell .gm-file-label {position:relative;border:1px dashed #e6ad65;background:#fff8ec;color:#9b601d}
+.app-shell .gm-file-label input {position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.app-shell .gm-geometry-section {padding:14px;border:1px dashed #d5d8cb;border-radius:11px;background:#f8faf6;display:flex;flex-direction:column;gap:10px}
+.app-shell .gm-geometry-section strong {font-size:12px;color:#2a6340}
+.app-shell .gm-note {padding:10px 11px;background:#fff7e8;border-left:3px solid #FC8801;border-radius:5px;color:#80633e;font-size:10px;line-height:1.6;margin:0}
+.app-shell .gm-error,.app-shell .gm-success {margin:0;padding:10px 11px;border-radius:8px;font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+.app-shell .gm-error {color:#973529;background:#ffece6;border:1px solid #ffdbd0}
+.app-shell .gm-success {color:#24683c;background:#e9f5ed;border:1px solid #cce9d5}
+.app-shell .gm-list {display:flex;flex-direction:column;gap:9px}
+.app-shell .gm-list-card {padding:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid #ece5d9;border-radius:11px;background:#fff;box-shadow:0 2px 5px #00000007}
+.app-shell .gm-list-details {display:flex;flex-direction:column;gap:5px;min-width:0}
+.app-shell .gm-list-details strong {font-size:12px;font-weight:800;color:#24623c}
+.app-shell .gm-list-details small {font-size:10px;color:#7b877b;overflow-wrap:anywhere}
+.app-shell .gm-row-actions {display:flex;align-items:center;gap:4px;flex-shrink:0}
+.app-shell .gm-row-actions button {border:1px solid #f0dfc9;border-radius:8px;background:#fff9ec;color:#bb7c26;width:28px;height:28px;display:grid;place-items:center;cursor:pointer}
+.app-shell .gm-row-actions button:hover {background:#ffeaca}
+.app-shell .gm-row-actions button.danger {color:#c14832;background:#fff5f2}
+.app-shell .gm-pill {align-self:flex-start;font-size:9px;font-weight:700;border-radius:15px;padding:4px 8px;background:#f3f2ec;color:#696c60}
+.app-shell .gm-pill.disponible {background:#e8f7e8;color:#286b3d}
+.app-shell .gm-pill.reservado {background:#fff1d2;color:#936300}
+.app-shell .gm-pill.vendido {background:#ffede9;color:#a83c30}
+.app-shell .gm-stats {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.app-shell .gm-stats > div {padding:14px;background:white;border:1px solid #efe2ce;border-radius:11px;display:flex;flex-direction:column;gap:5px}
+.app-shell .gm-stats small {font-size:10px;color:#7a846f}
+.app-shell .gm-stats strong {font-size:26px;line-height:1.1;color:#308056;font-weight:800}
+.app-shell .gm-status-summary {display:flex;flex-direction:column;gap:6px}
+.app-shell .gm-status-summary > div {display:flex;align-items:center;gap:9px;padding:10px;background:white;border:1px solid #eee7dc;border-radius:8px}
+.app-shell .gm-status-summary strong {margin-left:auto;font-size:16px}
+.app-shell .gm-status-bullet {width:10px;height:10px;border-radius:50%;background:#aaa}
+.app-shell .gm-status-bullet.disponible{background:#4CAF50}.app-shell .gm-status-bullet.reservado{background:#FFB800}.app-shell .gm-status-bullet.vendido{background:#F44336}
+.app-shell .gm-quick-links {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.app-shell .gm-quick-links button {text-align:left;display:flex;align-items:center;gap:7px;padding:11px 10px;border:1px solid #f1ddc2;border-radius:8px;background:#fffaf3;color:#3a6945;cursor:pointer;font-weight:700}
+.app-shell .gm-quick-links button:hover {background:#eaf5e9}
+.app-shell .gm-quote-item {border:1px solid #eadfce;background:#fff;display:flex;justify-content:space-between;gap:10px;align-items:center;border-radius:9px;padding:12px;text-align:left;color:#2d523c;cursor:pointer}
+.app-shell .gm-quote-item:hover,.app-shell .gm-quote-item.active {border-color:#FC8801;background:#fff7ed}
+.app-shell .gm-quote-item span {display:flex;flex-direction:column;gap:4px;min-width:0}
+.app-shell .gm-quote-item small,.app-shell .gm-user-card small {display:block;color:#778276;font-size:10px}
+.app-shell .gm-quote-item b {white-space:nowrap;color:#308056}
+.app-shell .gm-quote-preview {padding:13px;border:1px solid #f1d7b3;background:#fff8ed;border-radius:10px}
+.app-shell .gm-quote-preview dl {display:grid;grid-template-columns:36% 1fr;gap:7px;font-size:11px}
+.app-shell .gm-quote-preview dt {color:#728172}.app-shell .gm-quote-preview dd {margin:0;color:#235539;font-weight:700}
+.app-shell .gm-quote-preview p {font-size:11px;line-height:1.6;overflow-wrap:anywhere}
+.app-shell .gm-audit-list {display:flex;flex-direction:column;gap:5px}
+.app-shell .gm-audit-list article {display:flex;gap:10px;border-bottom:1px solid #ebe6da;padding:10px 4px}
+.app-shell .gm-audit-circle {width:9px;height:9px;border-radius:50%;background:#FC8801;box-shadow:0 0 0 3px #fff0d9;flex-shrink:0;margin-top:5px}
+.app-shell .gm-audit-list article>div {min-width:0;display:flex;flex-direction:column;gap:4px}
+.app-shell .gm-audit-list strong {font-size:11px;color:#286846}
+.app-shell .gm-audit-list small {font-size:10px;color:#81907e}
+.app-shell .gm-audit-list p {font-size:11px;margin:2px 0;color:#52665a;line-height:1.6;overflow-wrap:anywhere}
+.app-shell .gm-user-card {border:1px solid #eee2d2;background:#fff;border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.app-shell .gm-user-card strong {font-size:12px;color:#225d39}
+.app-shell .gm-mini-history p {font-size:10px;padding:6px 0;border-bottom:1px solid #eee;margin:0}
+.app-shell .gm-map-drawing {position:absolute;z-index:90;top:18px;left:50%;transform:translateX(-50%);width:min(350px,calc(100% - 30px));border:1px solid #f4c58a;border-radius:13px;background:#fffaf4;padding:13px 15px;box-shadow:0 7px 20px #0002;font-family:'Poppins',sans-serif}
+.app-shell .gm-map-drawing strong {display:flex;align-items:center;gap:6px;color:#308056;font-size:12px}
+.app-shell .gm-map-drawing p {color:#70664f;font-size:11px;line-height:1.5}
+.app-shell .gm-map-drawing button {border:1px solid #308056;border-radius:7px;background:#308056;color:#fff;padding:8px 10px;font:700 11px 'Poppins',sans-serif;display:flex;align-items:center;gap:6px;cursor:pointer}
+.app-shell .gm-map-drawing button:disabled {opacity:.5;cursor:wait}
+.app-shell .gm-map-drawing button.muted {background:white;color:#9b642d;border-color:#eacb9e}
+.app-shell .gm-popup-more {border:1px solid #308056;background:#eff8f1;color:#2b6f48;border-radius:7px;padding:8px;font-size:11px;font-weight:700;cursor:pointer;margin-top:7px}
+.app-shell .gm-account-content {padding:16px 20px}
+.account-panel .account-scroll.gm-account-content {padding:16px 20px}
+.account-panel .gm-stack {display:flex;flex-direction:column;gap:13px}
+.account-panel .gm-stack input,.account-panel .gm-stack select,.account-panel .gm-stack textarea {box-sizing:border-box;width:100%;border:1px solid #ded9d0;border-radius:8px;padding:10px;font:11px 'Poppins',sans-serif;background:white;color:#2b5840}
+.account-panel .gm-form,.account-panel .gm-label {display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:700}
+.account-panel .gm-row-wrap,.account-panel .gm-inline-actions {display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.account-panel .gm-primary,.account-panel .gm-secondary {display:inline-flex;align-items:center;gap:6px;padding:9px 11px;border-radius:8px;cursor:pointer;font:700 11px 'Poppins',sans-serif}
+.account-panel .gm-primary {background:#308056;border:1px solid #308056;color:white}
+.account-panel .gm-secondary {background:#fff8ee;border:1px solid #ecd7b9;color:#8c6229}
+.account-panel .gm-user-card {padding:12px;border:1px solid #e9e1d4;border-radius:9px;background:white}
+.account-panel .gm-audit-list article {display:flex;gap:10px;padding:11px 4px;border-bottom:1px solid #eee}
+.account-panel .gm-audit-list article div {display:flex;flex-direction:column;gap:4px}
+.account-panel .gm-audit-list strong {color:#308056;font-size:11px}
+.account-panel .gm-audit-list small {color:#748075;font-size:10px}
+.account-panel .gm-audit-list p {margin:0;font-size:11px;color:#4f6556;overflow-wrap:anywhere}
+.account-panel .gm-audit-circle {height:9px;width:9px;border-radius:50%;background:#FC8801;flex-shrink:0;margin-top:3px}
+.account-panel .gm-form-card {padding:12px;background:#fff8ef;border:1px solid #f0d9b7;border-radius:9px}
+.account-panel .gm-stack h3 {font-size:13px;color:#308056;margin:2px 0}
+.account-panel .gm-stack .gm-muted {font-size:11px;color:#738175}
+.account-panel .gm-stack .gm-error,.account-panel .gm-stack .gm-success {padding:10px;border-radius:8px;font-size:11px}
+.account-panel .gm-stack .gm-error {background:#fff0ee;color:#a42c27}.account-panel .gm-stack .gm-success {background:#eaf6ec;color:#287443}
+.account-panel .gm-checkbox {display:flex!important;flex-direction:row!important;align-items:center!important}
+.account-panel .gm-checkbox input {width:auto!important}
+.account-panel .account-close {display:grid;place-items:center}
+.account-panel .account-logout {display:flex;align-items:center;gap:6px}
+.account-panel .account-status {color:#308056;font-size:10px}
+.gm-print-document {display:none}
+@media(max-width:860px){.app-shell .gm-module-panel {width:min(410px,calc(100% - 24px));}.app-shell .gm-floating-actions{right:9px}}
+@media(max-width:700px){
+  .app-shell .gm-module-panel {top:var(--gm-header-h);width:min(100%,440px);z-index:120}
+  .app-shell .gm-module-content {padding:14px}
+  .app-shell .gm-stats {gap:7px}
+  .app-shell .gm-floating-actions {top:53%;right:7px;gap:4px}
+  .app-shell .gm-floating-actions button {width:32px;height:32px}
+  .app-shell .gm-map-drawing {left:10px;right:54px;top:12px;transform:none;width:auto}
+}
+@media print {
+  @page {size:A4;margin:15mm}
+  html,body,#root {height:auto!important;overflow:visible!important;background:white!important}
+  #root .app-shell {position:static!important;display:block!important;overflow:visible!important;height:auto!important;color:#111!important}
+  #root .app-shell .gm-header,#root .app-shell .app-body,#root .app-shell .account-backdrop,#root .app-shell .gm-module-head {display:none!important}
+  #root .app-shell .gm-module-panel {position:static!important;display:block!important;width:100%!important;height:auto!important;border:0!important;box-shadow:none!important;overflow:visible!important}
+  #root .app-shell .gm-module-content {overflow:visible!important;padding:0!important}
+  #root .app-shell .gm-module-content .gm-stack>*:not(.gm-print-document) {display:none!important}
+  #root .app-shell .gm-print-document {display:block!important;font:11px Arial,sans-serif;color:#111;line-height:1.5}
+  #root .app-shell .gm-print-document table {border-collapse:collapse;width:100%;margin-top:12px}
+  #root .app-shell .gm-print-document th,#root .app-shell .gm-print-document td {border:1px solid #ccc;text-align:left;padding:7px}
+  #root .app-shell .gm-print-document h1 {font-size:20px;color:#bd6800}
+  #root .app-shell .gm-print-document h2 {font-size:16px;color:#308056}
+  #root .app-shell .gm-print-document .gm-print-title {padding-bottom:12px;border-bottom:2px solid #308056}
+}
+
+/* Datos comerciales exactos de los lotes (no se inventan precios ni condiciones). */
+.app-shell .gm-quote-terms {border:1px solid #efd4ad;border-radius:10px;background:#fff9ef;padding:12px;min-width:0}
+.app-shell .gm-quote-terms legend {font-size:12px;font-weight:800;color:#308056;padding:0 7px}
+.app-shell .gm-quote-services {display:flex;flex-direction:column;gap:8px;padding:10px 0 0;color:#308056}
+.app-shell .gm-quote-check {display:flex!important;flex-direction:row!important;align-items:center!important;gap:8px!important}
+.app-shell .gm-quote-check input {width:auto!important;accent-color:#308056}
+.app-shell .gm-quote-values-note {display:flex;flex-direction:column;gap:5px;background:#f0f7f1;border:1px solid #b4d7bd;padding:11px;border-radius:8px;font-size:11px;color:#2b6142}
+.app-shell .gm-quote-values-note p {margin:4px 0;color:#9f5b1c}
+
+/* Precios manuales en USD y cálculo de cuota exacta para cada lote. */
+.app-shell .gm-financing-result {display:flex;flex-direction:column;gap:7px;margin-top:12px;padding:13px 14px;background:#eaf5e9;border:1px solid #aed0b6;border-left:4px solid #FC8801;border-radius:9px;overflow-wrap:anywhere}
+.app-shell .gm-financing-result strong {color:#26673e;font-size:14px;line-height:1.5}
+.app-shell .gm-financing-result span {color:#355c40;font-size:11px}
+.app-shell .gm-financing-result small {color:#576e5b;font-size:10px}

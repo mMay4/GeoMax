@@ -4,109 +4,49 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "L-001",
-        "codigo": "Lote 001",
-        "estado": "disponible",
-        "superficie_m2": 250,
-        "urbanizacion": "Urbanización Demo MAX"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.2813,
-              -19.0557
-            ],
-            [
-              -65.2799,
-              -19.0557
-            ],
-            [
-              -65.2799,
-              -19.0544
-            ],
-            [
-              -65.2813,
-              -19.0544
-            ],
-            [
-              -65.2813,
-              -19.0557
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "L-002",
-        "codigo": "Lote 002",
-        "estado": "reservado",
-        "superficie_m2": 250,
-        "urbanizacion": "Urbanización Demo MAX"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -65.2798,
-              -19.0557
-            ],
-            [
-              -65.2784,
-              -19.0557
-            ],
-            [
-              -65.2784,
-              -19.0544
-            ],
-            [
-              -65.2798,
-              -19.0544
-            ],
-            [
-              -65.2798,
-              -19.0557
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "L-003",
-        "codigo": "Lote 003",
+        "id": "KAR-III-A-01",
+        "urbanizacion": "Karapanza de Corazón III",
         "estado": "vendido",
-        "superficie_m2": 250,
-        "urbanizacion": "Urbanización Demo MAX"
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-1",
+        "manzano": "A",
+        "superficie_m2": 174.44,
+        "lote_numero": 1
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -65.2783,
-              -19.0557
+              -65.23428354,
+              -19.12361478
             ],
             [
-              -65.2769,
-              -19.0557
+              -65.23427017,
+              -19.1236177
             ],
             [
-              -65.2769,
-              -19.0544
+              -65.23423631,
+              -19.12365473
             ],
             [
-              -65.2783,
-              -19.0544
+              -65.2343757,
+              -19.12377123
             ],
             [
-              -65.2783,
-              -19.0557
+              -65.23443214,
+              -19.12370951
+            ],
+            [
+              -65.23432692,
+              -19.1236331
+            ],
+            [
+              -65.23428354,
+              -19.12361478
             ]
           ]
         ]
@@ -115,35 +55,2850 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "L-004",
-        "codigo": "Lote 004",
-        "estado": "disponible",
-        "superficie_m2": 300,
-        "urbanizacion": "Urbanización Demo MAX"
+        "id": "KAR-III-A-02",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-2",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 2
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -65.2813,
-              -19.0542
+              -65.23423631,
+              -19.12365473
             ],
             [
-              -65.2798,
-              -19.0542
+              -65.23418585,
+              -19.12370991
             ],
             [
-              -65.2798,
-              -19.0528
+              -65.23432524,
+              -19.12382641
             ],
             [
-              -65.2813,
-              -19.0528
+              -65.2343757,
+              -19.12377123
             ],
             [
-              -65.2813,
-              -19.0542
+              -65.23423631,
+              -19.12365473
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-03",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-3",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23418585,
+              -19.12370991
+            ],
+            [
+              -65.23413605,
+              -19.12376437
+            ],
+            [
+              -65.23427544,
+              -19.12388086
+            ],
+            [
+              -65.23432524,
+              -19.12382641
+            ],
+            [
+              -65.23418585,
+              -19.12370991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-04",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-4",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23413605,
+              -19.12376437
+            ],
+            [
+              -65.23408559,
+              -19.12381955
+            ],
+            [
+              -65.23422498,
+              -19.12393605
+            ],
+            [
+              -65.23427544,
+              -19.12388086
+            ],
+            [
+              -65.23413605,
+              -19.12376437
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-05",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-5",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23408559,
+              -19.12381955
+            ],
+            [
+              -65.23403645,
+              -19.12387328
+            ],
+            [
+              -65.23417584,
+              -19.12398978
+            ],
+            [
+              -65.23422498,
+              -19.12393605
+            ],
+            [
+              -65.23408559,
+              -19.12381955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-06",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-6",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23403645,
+              -19.12387328
+            ],
+            [
+              -65.23398599,
+              -19.12392847
+            ],
+            [
+              -65.23412538,
+              -19.12404496
+            ],
+            [
+              -65.23417584,
+              -19.12398978
+            ],
+            [
+              -65.23403645,
+              -19.12387328
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-07",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-7",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23398599,
+              -19.12392847
+            ],
+            [
+              -65.23393752,
+              -19.12398147
+            ],
+            [
+              -65.23407691,
+              -19.12409797
+            ],
+            [
+              -65.23412538,
+              -19.12404496
+            ],
+            [
+              -65.23398599,
+              -19.12392847
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-08",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-8",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23393752,
+              -19.12398147
+            ],
+            [
+              -65.23388839,
+              -19.1240352
+            ],
+            [
+              -65.23402778,
+              -19.1241517
+            ],
+            [
+              -65.23407691,
+              -19.12409797
+            ],
+            [
+              -65.23393752,
+              -19.12398147
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-09",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-9",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23388839,
+              -19.1240352
+            ],
+            [
+              -65.23383925,
+              -19.12408893
+            ],
+            [
+              -65.23397864,
+              -19.12420543
+            ],
+            [
+              -65.23402778,
+              -19.1241517
+            ],
+            [
+              -65.23388839,
+              -19.1240352
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-10",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-10",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23383925,
+              -19.12408893
+            ],
+            [
+              -65.23378813,
+              -19.12414484
+            ],
+            [
+              -65.23392752,
+              -19.12426134
+            ],
+            [
+              -65.23397864,
+              -19.12420543
+            ],
+            [
+              -65.23383925,
+              -19.12408893
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-11",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-11",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23378813,
+              -19.12414484
+            ],
+            [
+              -65.23373899,
+              -19.12419857
+            ],
+            [
+              -65.23387838,
+              -19.12431507
+            ],
+            [
+              -65.23392752,
+              -19.12426134
+            ],
+            [
+              -65.23378813,
+              -19.12414484
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-12",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-12",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23373899,
+              -19.12419857
+            ],
+            [
+              -65.23368786,
+              -19.12425448
+            ],
+            [
+              -65.23382726,
+              -19.12437098
+            ],
+            [
+              -65.23387838,
+              -19.12431507
+            ],
+            [
+              -65.23373899,
+              -19.12419857
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-13",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-13",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23368786,
+              -19.12425448
+            ],
+            [
+              -65.23363807,
+              -19.12430894
+            ],
+            [
+              -65.23377746,
+              -19.12442543
+            ],
+            [
+              -65.23382726,
+              -19.12437098
+            ],
+            [
+              -65.23368786,
+              -19.12425448
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-14",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-14",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23363807,
+              -19.12430894
+            ],
+            [
+              -65.2335876,
+              -19.12436412
+            ],
+            [
+              -65.233727,
+              -19.12448061
+            ],
+            [
+              -65.23377746,
+              -19.12442543
+            ],
+            [
+              -65.23363807,
+              -19.12430894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-15",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-15",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2335876,
+              -19.12436412
+            ],
+            [
+              -65.23353581,
+              -19.12442075
+            ],
+            [
+              -65.2336752,
+              -19.12453725
+            ],
+            [
+              -65.233727,
+              -19.12448061
+            ],
+            [
+              -65.2335876,
+              -19.12436412
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-16",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-16",
+        "manzano": "A",
+        "superficie_m2": 160.0,
+        "lote_numero": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23353581,
+              -19.12442075
+            ],
+            [
+              -65.23348203,
+              -19.12447957
+            ],
+            [
+              -65.23362142,
+              -19.12459606
+            ],
+            [
+              -65.2336752,
+              -19.12453725
+            ],
+            [
+              -65.23353581,
+              -19.12442075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-17",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-17",
+        "manzano": "A",
+        "superficie_m2": 150.17,
+        "lote_numero": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23348203,
+              -19.12447957
+            ],
+            [
+              -65.23343157,
+              -19.12453475
+            ],
+            [
+              -65.23343098,
+              -19.12455732
+            ],
+            [
+              -65.23348095,
+              -19.12462982
+            ],
+            [
+              -65.2335593,
+              -19.12454415
+            ],
+            [
+              -65.23348203,
+              -19.12447957
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-A-18",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "A-18",
+        "manzano": "A",
+        "superficie_m2": 153.02,
+        "lote_numero": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.2335593,
+              -19.12454415
+            ],
+            [
+              -65.23348095,
+              -19.12462982
+            ],
+            [
+              -65.23352183,
+              -19.12470498
+            ],
+            [
+              -65.23362142,
+              -19.12459606
+            ],
+            [
+              -65.2335593,
+              -19.12454415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-02",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-2",
+        "manzano": "B",
+        "superficie_m2": 199.9,
+        "lote_numero": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23369008,
+              -19.12356075
+            ],
+            [
+              -65.23362634,
+              -19.12363045
+            ],
+            [
+              -65.23376951,
+              -19.12375011
+            ],
+            [
+              -65.23383326,
+              -19.12368041
+            ],
+            [
+              -65.23369008,
+              -19.12356075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-01",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-1",
+        "manzano": "B",
+        "superficie_m2": 199.9,
+        "lote_numero": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23383326,
+              -19.12368041
+            ],
+            [
+              -65.23376951,
+              -19.12375011
+            ],
+            [
+              -65.23391345,
+              -19.12387041
+            ],
+            [
+              -65.23397719,
+              -19.1238007
+            ],
+            [
+              -65.23383326,
+              -19.12368041
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-03",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-3",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23362634,
+              -19.12363045
+            ],
+            [
+              -65.23357587,
+              -19.12368563
+            ],
+            [
+              -65.23371905,
+              -19.12380529
+            ],
+            [
+              -65.23376951,
+              -19.12375011
+            ],
+            [
+              -65.23362634,
+              -19.12363045
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-22",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-22",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 22
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23376951,
+              -19.12375011
+            ],
+            [
+              -65.23371905,
+              -19.12380529
+            ],
+            [
+              -65.23386299,
+              -19.12392559
+            ],
+            [
+              -65.23391345,
+              -19.12387041
+            ],
+            [
+              -65.23376951,
+              -19.12375011
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-04",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-4",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23357587,
+              -19.12368563
+            ],
+            [
+              -65.23352541,
+              -19.12374082
+            ],
+            [
+              -65.23366859,
+              -19.12386048
+            ],
+            [
+              -65.23371905,
+              -19.12380529
+            ],
+            [
+              -65.23357587,
+              -19.12368563
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-21",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-21",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 21
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23371905,
+              -19.12380529
+            ],
+            [
+              -65.23366859,
+              -19.12386048
+            ],
+            [
+              -65.23381253,
+              -19.12398077
+            ],
+            [
+              -65.23386299,
+              -19.12392559
+            ],
+            [
+              -65.23371905,
+              -19.12380529
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-05",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-5",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23352541,
+              -19.12374082
+            ],
+            [
+              -65.23347628,
+              -19.12379455
+            ],
+            [
+              -65.23361946,
+              -19.12391421
+            ],
+            [
+              -65.23366859,
+              -19.12386048
+            ],
+            [
+              -65.23352541,
+              -19.12374082
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-20",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-20",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 20
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23366859,
+              -19.12386048
+            ],
+            [
+              -65.23361946,
+              -19.12391421
+            ],
+            [
+              -65.23376339,
+              -19.1240345
+            ],
+            [
+              -65.23381253,
+              -19.12398077
+            ],
+            [
+              -65.23366859,
+              -19.12386048
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-06",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-6",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23347628,
+              -19.12379455
+            ],
+            [
+              -65.23342515,
+              -19.12385046
+            ],
+            [
+              -65.23356833,
+              -19.12397012
+            ],
+            [
+              -65.23361946,
+              -19.12391421
+            ],
+            [
+              -65.23347628,
+              -19.12379455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-19",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-19",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 19
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23361946,
+              -19.12391421
+            ],
+            [
+              -65.23356833,
+              -19.12397012
+            ],
+            [
+              -65.23371227,
+              -19.12409041
+            ],
+            [
+              -65.23376339,
+              -19.1240345
+            ],
+            [
+              -65.23361946,
+              -19.12391421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-07",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-7",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23342515,
+              -19.12385046
+            ],
+            [
+              -65.23337535,
+              -19.12390491
+            ],
+            [
+              -65.23351853,
+              -19.12402457
+            ],
+            [
+              -65.23356833,
+              -19.12397012
+            ],
+            [
+              -65.23342515,
+              -19.12385046
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-18",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-18",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23356833,
+              -19.12397012
+            ],
+            [
+              -65.23351853,
+              -19.12402457
+            ],
+            [
+              -65.23366247,
+              -19.12414487
+            ],
+            [
+              -65.23371227,
+              -19.12409041
+            ],
+            [
+              -65.23356833,
+              -19.12397012
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-08",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-8",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23337535,
+              -19.12390491
+            ],
+            [
+              -65.23332489,
+              -19.1239601
+            ],
+            [
+              -65.23346807,
+              -19.12407976
+            ],
+            [
+              -65.23351853,
+              -19.12402457
+            ],
+            [
+              -65.23337535,
+              -19.12390491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-17",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-17",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23351853,
+              -19.12402457
+            ],
+            [
+              -65.23346807,
+              -19.12407976
+            ],
+            [
+              -65.23361201,
+              -19.12420005
+            ],
+            [
+              -65.23366247,
+              -19.12414487
+            ],
+            [
+              -65.23351853,
+              -19.12402457
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-09",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-9",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 9
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23332489,
+              -19.1239601
+            ],
+            [
+              -65.23327443,
+              -19.12401528
+            ],
+            [
+              -65.23341761,
+              -19.12413494
+            ],
+            [
+              -65.23346807,
+              -19.12407976
+            ],
+            [
+              -65.23332489,
+              -19.1239601
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-16",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-16",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 16
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23346807,
+              -19.12407976
+            ],
+            [
+              -65.23341761,
+              -19.12413494
+            ],
+            [
+              -65.23356154,
+              -19.12425523
+            ],
+            [
+              -65.23361201,
+              -19.12420005
+            ],
+            [
+              -65.23346807,
+              -19.12407976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-10",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-10",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23327443,
+              -19.12401528
+            ],
+            [
+              -65.23322463,
+              -19.12406973
+            ],
+            [
+              -65.23336781,
+              -19.1241894
+            ],
+            [
+              -65.23341761,
+              -19.12413494
+            ],
+            [
+              -65.23327443,
+              -19.12401528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-15",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-15",
+        "manzano": "B",
+        "superficie_m2": 160.0,
+        "lote_numero": 15
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23341761,
+              -19.12413494
+            ],
+            [
+              -65.23336781,
+              -19.1241894
+            ],
+            [
+              -65.23351174,
+              -19.12430969
+            ],
+            [
+              -65.23356154,
+              -19.12425523
+            ],
+            [
+              -65.23341761,
+              -19.12413494
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-11",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-11",
+        "manzano": "B",
+        "superficie_m2": 180.49,
+        "lote_numero": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23322463,
+              -19.12406973
+            ],
+            [
+              -65.23316686,
+              -19.1241329
+            ],
+            [
+              -65.23316219,
+              -19.12416871
+            ],
+            [
+              -65.23321738,
+              -19.12423405
+            ],
+            [
+              -65.23330569,
+              -19.12413748
+            ],
+            [
+              -65.23322463,
+              -19.12406973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-12",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-12",
+        "manzano": "B",
+        "superficie_m2": 180.5,
+        "lote_numero": 12
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23330569,
+              -19.12413748
+            ],
+            [
+              -65.23321738,
+              -19.12423405
+            ],
+            [
+              -65.23327483,
+              -19.12431153
+            ],
+            [
+              -65.23337841,
+              -19.12419826
+            ],
+            [
+              -65.23330569,
+              -19.12413748
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-13",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-13",
+        "manzano": "B",
+        "superficie_m2": 180.5,
+        "lote_numero": 13
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23337841,
+              -19.12419826
+            ],
+            [
+              -65.23327483,
+              -19.12431153
+            ],
+            [
+              -65.23332689,
+              -19.12438322
+            ],
+            [
+              -65.23344508,
+              -19.12425397
+            ],
+            [
+              -65.23337841,
+              -19.12419826
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KAR-III-B-14",
+        "urbanizacion": "Karapanza de Corazón III",
+        "estado": "vendido",
+        "precio": null,
+        "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+        "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+        "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+        "codigo": "B-14",
+        "manzano": "B",
+        "superficie_m2": 182.22,
+        "lote_numero": 14
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.23344508,
+              -19.12425397
+            ],
+            [
+              -65.23332689,
+              -19.12438322
+            ],
+            [
+              -65.23336892,
+              -19.12443372
+            ],
+            [
+              -65.23340617,
+              -19.12442514
+            ],
+            [
+              -65.23351174,
+              -19.12430969
+            ],
+            [
+              -65.23344508,
+              -19.12425397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-01",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-1",
+        "lote_numero": 1,
+        "manzano": "A",
+        "superficie_m2": 229.37,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15932155,
+              -19.20146641
+            ],
+            [
+              -65.15912923,
+              -19.20147597
+            ],
+            [
+              -65.15913266,
+              -19.20156274
+            ],
+            [
+              -65.15933488,
+              -19.2015545
+            ],
+            [
+              -65.15934536,
+              -19.20154136
+            ],
+            [
+              -65.15935422,
+              -19.20152099
+            ],
+            [
+              -65.15935472,
+              -19.20150145
+            ],
+            [
+              -65.15934611,
+              -19.20148275
+            ],
+            [
+              -65.15932155,
+              -19.20146641
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-02",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-2",
+        "lote_numero": 2,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15912818,
+              -19.20147516
+            ],
+            [
+              -65.15903323,
+              -19.2014789
+            ],
+            [
+              -65.15904159,
+              -19.20166573
+            ],
+            [
+              -65.15913654,
+              -19.20166195
+            ],
+            [
+              -65.15912818,
+              -19.20147516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-03",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-3",
+        "lote_numero": 3,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15903323,
+              -19.2014789
+            ],
+            [
+              -65.15893828,
+              -19.20148265
+            ],
+            [
+              -65.15894664,
+              -19.20166952
+            ],
+            [
+              -65.15904159,
+              -19.20166573
+            ],
+            [
+              -65.15903323,
+              -19.2014789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-04",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-4",
+        "lote_numero": 4,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15893828,
+              -19.20148265
+            ],
+            [
+              -65.15884333,
+              -19.20148639
+            ],
+            [
+              -65.1588517,
+              -19.20167331
+            ],
+            [
+              -65.15894664,
+              -19.20166952
+            ],
+            [
+              -65.15893828,
+              -19.20148265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-05",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-5",
+        "lote_numero": 5,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15884333,
+              -19.20148639
+            ],
+            [
+              -65.15874838,
+              -19.20149013
+            ],
+            [
+              -65.15875675,
+              -19.2016771
+            ],
+            [
+              -65.1588517,
+              -19.20167331
+            ],
+            [
+              -65.15884333,
+              -19.20148639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-06",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-6",
+        "lote_numero": 6,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15874838,
+              -19.20149013
+            ],
+            [
+              -65.15865343,
+              -19.20149387
+            ],
+            [
+              -65.1586618,
+              -19.20168088
+            ],
+            [
+              -65.15875675,
+              -19.2016771
+            ],
+            [
+              -65.15874838,
+              -19.20149013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-07",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-7",
+        "lote_numero": 7,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15865343,
+              -19.20149387
+            ],
+            [
+              -65.15855848,
+              -19.20149762
+            ],
+            [
+              -65.15856685,
+              -19.20168467
+            ],
+            [
+              -65.1586618,
+              -19.20168088
+            ],
+            [
+              -65.15865343,
+              -19.20149387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-08",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-8",
+        "lote_numero": 8,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15855848,
+              -19.20149762
+            ],
+            [
+              -65.15846353,
+              -19.20150136
+            ],
+            [
+              -65.1584719,
+              -19.20168846
+            ],
+            [
+              -65.15856685,
+              -19.20168467
+            ],
+            [
+              -65.15855848,
+              -19.20149762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-09",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-9",
+        "lote_numero": 9,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15846353,
+              -19.20150136
+            ],
+            [
+              -65.15836858,
+              -19.2015051
+            ],
+            [
+              -65.15837696,
+              -19.20169224
+            ],
+            [
+              -65.1584719,
+              -19.20168846
+            ],
+            [
+              -65.15846353,
+              -19.20150136
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-10",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-10",
+        "lote_numero": 10,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15836858,
+              -19.2015051
+            ],
+            [
+              -65.15827363,
+              -19.20150884
+            ],
+            [
+              -65.15828201,
+              -19.20169603
+            ],
+            [
+              -65.15837696,
+              -19.20169224
+            ],
+            [
+              -65.15836858,
+              -19.2015051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-11",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-11",
+        "lote_numero": 11,
+        "manzano": "A",
+        "superficie_m2": 227.62,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15827363,
+              -19.20150884
+            ],
+            [
+              -65.15816804,
+              -19.201513
+            ],
+            [
+              -65.15818153,
+              -19.20170004
+            ],
+            [
+              -65.15828201,
+              -19.20169603
+            ],
+            [
+              -65.15827363,
+              -19.20150884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-12",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-12",
+        "lote_numero": 12,
+        "manzano": "A",
+        "superficie_m2": 215.87,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15828201,
+              -19.20169603
+            ],
+            [
+              -65.15818153,
+              -19.20170004
+            ],
+            [
+              -65.15819505,
+              -19.20188754
+            ],
+            [
+              -65.15829041,
+              -19.2018837
+            ],
+            [
+              -65.15828201,
+              -19.20169603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-13",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-13",
+        "lote_numero": 13,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15837696,
+              -19.20169224
+            ],
+            [
+              -65.15828201,
+              -19.20169603
+            ],
+            [
+              -65.15829041,
+              -19.2018837
+            ],
+            [
+              -65.15838536,
+              -19.20187988
+            ],
+            [
+              -65.15837696,
+              -19.20169224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-14",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-14",
+        "lote_numero": 14,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1584719,
+              -19.20168846
+            ],
+            [
+              -65.15837696,
+              -19.20169224
+            ],
+            [
+              -65.15838536,
+              -19.20187988
+            ],
+            [
+              -65.1584803,
+              -19.20187606
+            ],
+            [
+              -65.1584719,
+              -19.20168846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-15",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-15",
+        "lote_numero": 15,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15856685,
+              -19.20168467
+            ],
+            [
+              -65.1584719,
+              -19.20168846
+            ],
+            [
+              -65.1584803,
+              -19.20187606
+            ],
+            [
+              -65.15857525,
+              -19.20187224
+            ],
+            [
+              -65.15856685,
+              -19.20168467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-16",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-16",
+        "lote_numero": 16,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1586618,
+              -19.20168088
+            ],
+            [
+              -65.15856685,
+              -19.20168467
+            ],
+            [
+              -65.15857525,
+              -19.20187224
+            ],
+            [
+              -65.15867019,
+              -19.20186841
+            ],
+            [
+              -65.1586618,
+              -19.20168088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-17",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-17",
+        "lote_numero": 17,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15875675,
+              -19.2016771
+            ],
+            [
+              -65.1586618,
+              -19.20168088
+            ],
+            [
+              -65.15867019,
+              -19.20186841
+            ],
+            [
+              -65.15876514,
+              -19.20186459
+            ],
+            [
+              -65.15875675,
+              -19.2016771
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-18",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-18",
+        "lote_numero": 18,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.1588517,
+              -19.20167331
+            ],
+            [
+              -65.15875675,
+              -19.2016771
+            ],
+            [
+              -65.15876514,
+              -19.20186459
+            ],
+            [
+              -65.15886009,
+              -19.20186077
+            ],
+            [
+              -65.1588517,
+              -19.20167331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-19",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-19",
+        "lote_numero": 19,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15894664,
+              -19.20166952
+            ],
+            [
+              -65.1588517,
+              -19.20167331
+            ],
+            [
+              -65.15886009,
+              -19.20186077
+            ],
+            [
+              -65.15895503,
+              -19.20185694
+            ],
+            [
+              -65.15894664,
+              -19.20166952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-20",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-20",
+        "lote_numero": 20,
+        "manzano": "A",
+        "superficie_m2": 210.0,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15904159,
+              -19.20166573
+            ],
+            [
+              -65.15894664,
+              -19.20166952
+            ],
+            [
+              -65.15895503,
+              -19.20185694
+            ],
+            [
+              -65.15904998,
+              -19.20185312
+            ],
+            [
+              -65.15904159,
+              -19.20166573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-21",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-21",
+        "lote_numero": 21,
+        "manzano": "A",
+        "superficie_m2": 209.57,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15923768,
+              -19.20173943
+            ],
+            [
+              -65.15904533,
+              -19.2017461
+            ],
+            [
+              -65.1590498,
+              -19.20185456
+            ],
+            [
+              -65.15913722,
+              -19.20185061
+            ],
+            [
+              -65.1591524,
+              -19.20184826
+            ],
+            [
+              -65.15916454,
+              -19.20184522
+            ],
+            [
+              -65.15917741,
+              -19.20184072
+            ],
+            [
+              -65.15918567,
+              -19.20183266
+            ],
+            [
+              -65.15923768,
+              -19.20173943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-22",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-22",
+        "lote_numero": 22,
+        "manzano": "A",
+        "superficie_m2": 210.03,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15928529,
+              -19.20165783
+            ],
+            [
+              -65.15913702,
+              -19.20166252
+            ],
+            [
+              -65.15904123,
+              -19.20166657
+            ],
+            [
+              -65.15904533,
+              -19.2017461
+            ],
+            [
+              -65.15923768,
+              -19.20173943
+            ],
+            [
+              -65.15928529,
+              -19.20165783
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIF-A-23",
+        "urbanizacion": "Mi Futuro",
+        "codigo": "A-23",
+        "lote_numero": 23,
+        "manzano": "A",
+        "superficie_m2": 206.97,
+        "estado": "pendiente",
+        "precio": null,
+        "precio_usd": "",
+        "cuota_inicial_usd": "",
+        "plazo_meses": null,
+        "tipo_cambio": "7",
+        "promocion": "",
+        "servicios": [],
+        "fuente": "URB. MI FUTURO HOJA OFICIO.pdf",
+        "precision_geometria": "Contorno digitalizado desde el plano, no vértices catastrales individuales.",
+        "observaciones": "Estado comercial sin confirmar. Verificar límites de parcela con planos y medición aprobados."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.15933488,
+              -19.2015545
+            ],
+            [
+              -65.15913266,
+              -19.20156274
+            ],
+            [
+              -65.15913702,
+              -19.20166252
+            ],
+            [
+              -65.15928529,
+              -19.20165783
+            ],
+            [
+              -65.15933488,
+              -19.2015545
             ]
           ]
         ]

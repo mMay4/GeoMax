@@ -1,0 +1,70 @@
+/* Complementos GeoMax. Se preservan los estilos originales del acceso y menú. */
+.geomax-loading{display:grid;place-items:center;min-height:100vh;background:#FC8801;color:#fff;font:700 24px 'Poppins',sans-serif}
+.login-intro{color:#fff;font-size:12px;font-weight:600;text-align:center;margin:-10px 0 16px;text-shadow:0 1px 6px #542500}
+.login-button:disabled{opacity:.65;cursor:wait}
+/* Perfil accesible desde encabezado y barra lateral, sin cambiar la estructura original */
+.header{display:flex;align-items:center;gap:8px;width:min(470px,calc(100% - 390px));right:55px}
+.header .search-wrap{flex:1;min-width:0}
+.account-trigger{flex-shrink:0;display:flex;align-items:center;gap:6px;padding:5px 9px 5px 5px;border:1px solid #f3d8b5;border-radius:25px;background:#fff;color:#308056;font:600 11px 'Poppins',sans-serif;box-shadow:0 2px 10px #0002;cursor:pointer}
+.account-trigger span{display:grid;place-items:center;width:29px;height:29px;border-radius:50%;background:#FC8801;color:#fff;font-weight:800}
+.account-trigger:hover{background:#fff8ef}
+.account-trigger em{font-style:normal}
+.icon-rail .rail-account{margin-top:auto;margin-bottom:12px;background:#308056;color:white;border:2px solid #fff;border-radius:50%;font:700 17px 'Poppins',sans-serif}
+/* Herramientas del mapa: verde y naranja corporativos */
+.geomax-tools{position:absolute;display:flex;flex-direction:column;top:150px;right:14px;z-index:35;gap:8px}
+.geomax-tools .map-tool-btn{display:grid;place-items:center;font-size:22px;cursor:pointer}
+.geomax-tools .map-tool-btn:hover,.geomax-tools .map-tool-btn.active{border-color:#FC8801;background:#FC8801;color:#fff}
+.geomax-tools .map-tool-btn.danger{color:#a43f24}
+.geomax-tools .map-tool-btn.danger:hover{background:#ffede4;color:#b63616}
+.geomax-measure-panel{position:absolute;z-index:38;top:155px;right:72px;max-width:min(265px,calc(100vw - 100px));padding:12px 14px;border:1px solid #f5cf91;border-radius:10px;background:#fffefb;box-shadow:0 5px 20px #0002;color:#174b32;font:12px 'Poppins',sans-serif;pointer-events:auto}
+.geomax-measure-panel strong{font-size:12px;color:#308056}
+.geomax-measure-panel p{margin:6px 0 8px;line-height:1.5}
+.geomax-measure-panel button,.geomax-export-btn{border:0;border-radius:8px;background:#308056;color:#fff;padding:7px 11px;font:600 11px 'Poppins',sans-serif;cursor:pointer}
+.geomax-measure-panel button:hover,.geomax-export-btn:hover{background:#23603e}
+.geomax-popup-card{font:12px 'Poppins',sans-serif;color:#174b32}
+.geomax-popup-card h3{margin:4px 0 8px;font-size:15px}
+.geomax-popup-card .status-badge{display:inline-block;margin-bottom:9px;padding:4px 8px;border-radius:12px;background:#e9f2ea;color:#308056;font-size:11px;font-weight:700}
+.geomax-popup-card .status-reservado{background:#fff4d2;color:#9a6a00}
+.geomax-popup-card .status-vendido{background:#ffe7e1;color:#a73d2a}
+.geomax-popup-card .popup-table{font-size:11px;border-collapse:collapse;margin-bottom:10px}
+.geomax-popup-card .popup-table td{padding:4px 7px 4px 0;border-bottom:1px solid #eee}
+.popup-status-label{display:flex;flex-direction:column;gap:5px;font-weight:700;color:#308056}
+.popup-status-label select{padding:7px;border:1px solid #f5bd77;border-radius:6px;background:#fff}
+.popup-error{color:#b12f27;font-size:11px}.popup-hint{font-size:11px;color:#667}
+.geomax-export-btn{width:100%;text-align:left}
+.geomax-export p{color:#69756b;font-size:10px;line-height:1.5}
+/* Bitácora, usuarios y cierre de sesión */
+.account-backdrop{position:fixed;inset:0;z-index:180;display:flex;justify-content:flex-end;background:rgba(16,46,29,.32);font-family:'Poppins',sans-serif}
+.account-panel{box-sizing:border-box;display:flex;flex-direction:column;width:min(460px,100vw);height:100vh;height:100dvh;overflow:hidden;background:#fffafa;box-shadow:-8px 0 34px #1113;color:#183a29}
+.account-head{display:flex;align-items:flex-start;justify-content:space-between;padding:20px 24px;background:#FC8801;color:#fff}
+.account-head small{font-size:10px;letter-spacing:.08em;font-weight:700}.account-head h2{font-size:24px;margin:3px 0 0;font-weight:800}
+.account-close{border:0;background:#ffffff24;color:#fff;border-radius:50%;width:35px;height:35px;font-size:24px;cursor:pointer}
+.account-profile{display:flex;align-items:center;gap:12px;padding:18px 23px;background:#fff;border-bottom:1px solid #f1e9dc}
+.account-avatar{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#308056;color:#fff;font-weight:800;font-size:22px}
+.account-profile div:last-child{display:flex;flex-direction:column;gap:3px}
+.account-profile strong{font-size:14px}.account-profile span{font-size:12px;color:#6d806f}
+.account-tabs{display:flex;gap:8px;padding:10px 20px 0;border-bottom:1px solid #e9e1d7;background:#fff}
+.account-tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:9px 12px;font:600 12px 'Poppins',sans-serif;color:#69826e;cursor:pointer}
+.account-tabs button.active{color:#308056;border-bottom-color:#FC8801}
+.account-tools{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:14px 20px;font:12px 'Poppins',sans-serif}
+.account-tools strong{margin-right:auto}.account-tools select,.account-tools button{border:1px solid #dedbd0;border-radius:6px;padding:5px;font:11px 'Poppins',sans-serif;background:#fff;color:#174b32}
+.account-tools button{cursor:pointer}
+.account-scroll{overflow-y:auto;flex:1;min-height:0;padding:0 20px 24px}
+.audit-item{display:flex;gap:11px;padding:13px 1px;border-bottom:1px solid #ebe9e3}
+.audit-dot{flex:0 0 9px;height:9px;border-radius:50%;background:#FC8801;margin-top:6px;box-shadow:0 0 0 3px #fff1dc}
+.audit-item div:last-child{min-width:0}.audit-item strong{display:block;font-size:12px;color:#205437}.audit-item span{display:block;margin-top:2px;font-size:10px;color:#7d8a7e}.audit-item p{font-size:11px;line-height:1.5;color:#46574c;margin:5px 0;overflow-wrap:anywhere}
+.account-empty,.account-small{color:#637265;font-size:12px;line-height:1.6;padding:15px 0}
+.account-form{display:flex;flex-direction:column;gap:9px;margin-bottom:18px}
+.account-form input,.account-form select{box-sizing:border-box;width:100%;padding:10px 12px;border:1px solid #decdb7;border-radius:8px;background:#fff;font:12px 'Poppins',sans-serif}
+.account-form button{border:0;border-radius:8px;background:#308056;color:#fff;padding:10px;font:700 12px 'Poppins',sans-serif;cursor:pointer}
+.account-scroll h3{font-size:14px;color:#308056}
+.account-user-row{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #eee;padding:10px 0;font-size:11px}.account-user-row span{font-size:10px;color:#69796d}
+.account-alert,.account-success{margin:0 20px 10px;padding:10px;border-radius:8px;background:#ffeae5;color:#9f3024;font-size:11px}.account-success{background:#e6f5e9;color:#287344}
+.account-foot{display:flex;justify-content:space-between;gap:10px;padding:16px 20px;border-top:1px solid #eee;background:#fff}
+.account-foot button{padding:10px 14px;border-radius:8px;font:700 12px 'Poppins',sans-serif;cursor:pointer}
+.account-logout{border:0;background:#e45135;color:#fff}.account-secondary{border:1px solid #a4c0ae;background:#fff;color:#308056}
+@media(max-width:700px){.header{left:calc(var(--rail-width) + 9px);width:auto;right:9px}.account-trigger{padding:4px}.account-trigger em{display:none}.account-trigger span{width:26px;height:26px}.geomax-tools{top:113px;right:9px}.geomax-measure-panel{top:113px;right:55px;max-width:min(215px,calc(100vw - 110px))}.account-head{padding:16px 18px}.account-scroll{padding:0 16px 20px}}
+
+/* Mi Futuro: estado comercial todavía sin confirmar */
+.gm-dot.pending,.gm-status-bullet.pendiente{background:#777 !important}
+.gm-pill.pendiente,.status-badge.status-pendiente{color:#495057;background:#eceff1}

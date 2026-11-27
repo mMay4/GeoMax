@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react'
 import mapboxgl from 'mapbox-gl'
 import { useMapContext } from '../context/MapContext'
 
-export const SUCRE_CENTER = [-65.2627, -19.0476]
+export const SUCRE_CENTER = [-65.23361412, -19.12381079]
+export const INITIAL_ZOOM = 17.15 // Karapanza de Corazón III
 
 export default function useMapbox(containerRef) {
   const mapRef = useRef(null)
@@ -11,8 +12,8 @@ export default function useMapbox(containerRef) {
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
-    const token = import.meta.env.VITE_MAPBOX_TOKEN
-    if (!token) return
+    const token = import.meta.env.VITE_MAPBOX_TOKEN?.trim()
+    if (!token || token === 'pega_aqui_tu_token_publico_de_mapbox') return
 
     mapboxgl.accessToken = token
 
@@ -20,9 +21,9 @@ export default function useMapbox(containerRef) {
 
     const map = new mapboxgl.Map({
       container: containerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v12',
+      style: 'mapbox://styles/mapbox/satellite-streets-v12',
       center: SUCRE_CENTER,
-      zoom: 12.6,
+      zoom: INITIAL_ZOOM,
       pitch: 0,
       bearing: 0,
       attributionControl: true,
@@ -30,8 +31,6 @@ export default function useMapbox(containerRef) {
       preserveDrawingBuffer: false
     })
 
-    // Optimización móvil: se reducen interacciones que pueden resultar pesadas
-    // o poco prácticas en pantallas táctiles pequeñas.
     if (isMobile) {
       map.dragRotate.disable()
       map.touchZoomRotate.disableRotation()

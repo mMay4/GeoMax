@@ -1,5 +1,5 @@
 import { useMapContext } from '../../context/MapContext'
-import { SUCRE_CENTER } from '../../hooks/useMapbox'
+import { SUCRE_CENTER, INITIAL_ZOOM } from '../../hooks/useMapbox'
 
 export default function MapControls() {
   const { map, setSelectedFeature } = useMapContext()
@@ -8,7 +8,7 @@ export default function MapControls() {
     setSelectedFeature(null)
     map?.flyTo({
       center: SUCRE_CENTER,
-      zoom: 12.6,
+      zoom: INITIAL_ZOOM,
       pitch: 0,
       bearing: 0,
       essential: true
@@ -19,8 +19,8 @@ export default function MapControls() {
     <div className="home-control">
       <button
         className="map-tool-btn"
-        title="Volver a la vista general de Sucre"
-        aria-label="Volver a la vista general de Sucre"
+        title="Volver a Karapanza de Corazón III"
+        aria-label="Volver a Karapanza de Corazón III"
         onClick={goHome}
       >
         ⌂

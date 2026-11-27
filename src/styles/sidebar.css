@@ -1,0 +1,80 @@
+/* Panel izquierdo: estética del wireframe con identidad MAX Inversiones. */
+.app-shell .icon-rail {display:none;}
+.app-shell .sidebar.gm-sidebar {
+  position:absolute; top:0; bottom:0; left:0; z-index:60;
+  width:var(--sidebar-width); height:100%; padding:0;
+  display:flex; flex-direction:column; overflow:hidden;
+  background:#fff; border-right:1px solid #e7e6dd;
+  box-shadow:3px 0 15px #00000012; transform:translateX(0);
+  transition:transform .25s ease;
+}
+.app-shell .sidebar.gm-sidebar.closed {transform:translateX(-100%);}
+.app-shell .gm-sidebar-content {padding:18px 17px 16px; overflow-x:hidden; overflow-y:auto; flex:1;}
+.app-shell .gm-sidebar-section,
+.app-shell .gm-sidebar-layer .section-card {
+  padding:0 0 15px; margin:0 0 16px; border:0;
+  border-bottom:1px solid #eee7dd; background:transparent; box-shadow:none;
+}
+.app-shell .gm-sidebar-section h2,
+.app-shell .gm-sidebar-layer .section-title {
+  display:flex; align-items:center; gap:8px;
+  font-size:12px; font-weight:800; color:#308056; margin:0 0 10px;
+  text-transform:none; letter-spacing:0;
+}
+.app-shell .gm-urbanizations {display:flex; flex-direction:column; gap:6px;}
+.app-shell .gm-urbanization {
+  width:100%; padding:10px 11px; text-align:left; background:#f3f8f3;
+  border:1px solid #e3ede3; border-radius:9px;
+  color:#2b6946; font-size:11px; font-weight:600;
+  cursor:pointer; transition:background .16s;
+}
+.app-shell .gm-urbanization:hover {background:#e0f0e5;}
+.app-shell .gm-urbanization.active {background:#308056; border-color:#308056; color:#fff;}
+.app-shell .gm-empty {font-size:11px; color:#7b8178; margin:5px 0;}
+
+.app-shell .gm-sidebar-layer .layer-row {display:flex; align-items:center; justify-content:space-between; padding:6px 0; gap:8px;}
+.app-shell .gm-sidebar-layer .layer-label {display:flex; align-items:center; gap:8px; font-size:11px; font-weight:600; color:#355444;}
+.app-shell .gm-sidebar-layer .swatch {width:9px; height:9px; border-radius:50%;}
+.app-shell .gm-sidebar-layer .switch {
+  flex:0 0 auto; position:relative; width:36px; height:20px; padding:0;
+  background:#d8ded7; border:0; border-radius:20px; cursor:pointer;
+}
+.app-shell .gm-sidebar-layer .switch.on {background:#308056;}
+.app-shell .gm-sidebar-layer .switch span {
+  position:absolute; display:block; left:3px; top:3px;
+  width:14px; height:14px; border-radius:50%; background:white;
+  box-shadow:0 1px 3px #0002; transition:transform .2s;
+}
+.app-shell .gm-sidebar-layer .switch.on span {transform:translateX(16px);}
+
+.app-shell .gm-views {display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:5px;}
+.app-shell .gm-views button {
+  padding:9px 2px; font-size:10px; font-weight:700;
+  color:#875512; background:#fff8ed;
+  border:1px solid #f7c884; border-radius:7px; cursor:pointer;
+}
+.app-shell .gm-views button.active {background:#FC8801; color:white; border-color:#FC8801;}
+.app-shell .gm-sidebar-legend div {display:flex; align-items:center; gap:9px; padding:5px 0; font-size:11px; font-weight:600; color:#355444;}
+.app-shell .gm-dot {width:11px; height:11px; border-radius:50%; display:inline-block; flex-shrink:0;}
+.app-shell .gm-dot.sold {background:#F44336;}
+.app-shell .gm-dot.reserved {background:#FFB800;}
+.app-shell .gm-dot.available {background:#4CAF50;}
+.app-shell .gm-sidebar-reports button {
+  display:flex; justify-content:center; align-items:center; gap:8px;
+  width:100%; border:1px solid #d7e9d9; background:#eef7ef; color:#308056;
+  padding:10px; border-radius:9px; font-size:11px; font-weight:700; cursor:pointer;
+}
+.app-shell .gm-sidebar-reports button:hover {background:#e0f0e5;}
+@media (max-width:700px) {
+  .app-shell .sidebar.gm-sidebar {box-shadow:5px 0 22px #0003;}
+  .app-shell .mobile-scrim {
+    display:block !important; position:absolute; z-index:45;
+    inset:0; width:100%; height:100%; border:0; background:#11271b55;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .app-shell .sidebar.gm-sidebar {transition:none;}
+}
+
+/* Tres vistas cartográficas: Calles, Satélite y Relieve. */
+@media (max-width: 1280px) { .app-shell .gm-views {grid-template-columns:repeat(1,minmax(0,1fr));} }

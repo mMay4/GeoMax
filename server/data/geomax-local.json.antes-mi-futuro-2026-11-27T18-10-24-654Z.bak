@@ -1,0 +1,3722 @@
+{
+  "users": [
+    {
+      "id": "e1839efc-6a90-464d-82ba-654c664128af",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "usuario": "vendedor.1",
+      "rol": "admin",
+      "activo": true,
+      "hash": "708f7ea5bf8ded73eb94efc6c75a07f9:f3cf0ed933afb2aa0265d27607cef4cf241eb5ce287161397fa10104cd8e34f7fd3758460f42b9516a35b40887bd103a9f7fc9e74bbe77c654e77b8f0e0a634b",
+      "creado": "2026-11-11T21:03:24.454Z"
+    },
+    {
+      "id": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "hash": "0c61372ac37efaf20489760e1d2d0d9a:042a6d003436b7b4e785dad6e3a7bedc897a1c54b1134d9691516fa9623e2a346ece40e81589cd0420ae6503cc4cd352f25d410eed259a7841c0d22475fa45e5",
+      "rol": "lector",
+      "activo": true,
+      "creado": "2026-11-11T21:12:38.200Z"
+    },
+    {
+      "id": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "hash": "c33b08fdd93cdb5d495d2b96962f247d:9dc336de4985d215037637b27d1f5cef826e0e8059a5028503ca02a94caf6ec17ddcc6250fe3f2f4742bd23a645b48057a60d5720d8ff356c351851e93365243",
+      "rol": "lector",
+      "activo": true,
+      "creado": "2026-11-11T23:53:58.125Z"
+    }
+  ],
+  "audit": [
+    {
+      "id": "3361b741-47e9-4cc2-88c0-2dd2e8ec4c54",
+      "fecha": "2026-11-11T21:03:24.454Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_cuenta_inicial",
+      "detalle": "Administrador inicial",
+      "referencia": ""
+    },
+    {
+      "id": "31ffe863-fc14-4db1-9dff-2d77fa616727",
+      "fecha": "2026-11-11T21:03:24.457Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Primer acceso",
+      "referencia": ""
+    },
+    {
+      "id": "24d673c3-0e35-4730-bf1f-3007233d7151",
+      "fecha": "2026-11-11T21:04:23.962Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "acce7cab-8cba-402e-bbfc-e3b483b4e9ab",
+      "fecha": "2026-11-11T21:04:29.435Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "ab858552-0154-4261-ba61-cb2d84381564",
+      "fecha": "2026-11-11T21:04:35.519Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "dark",
+      "referencia": ""
+    },
+    {
+      "id": "35805f4a-5d86-4d5c-848f-7d778b97d62c",
+      "fecha": "2026-11-11T21:04:44.202Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "0b037dbf-8e03-4fd6-92e4-1aee871816e4",
+      "fecha": "2026-11-11T21:04:44.788Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "93f0dbe2-ef92-429e-9f89-220d35d2c5b9",
+      "fecha": "2026-11-11T21:04:45.570Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "e0a31953-ec34-4fa0-b709-40ecdca11438",
+      "fecha": "2026-11-11T21:04:46.124Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "ddca7d25-4f3a-430f-908a-7e634d0363cc",
+      "fecha": "2026-11-11T21:04:46.740Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "ed48d79a-8c21-4023-bde3-e7dd81a5ebbb",
+      "fecha": "2026-11-11T21:04:47.236Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "4af91d8e-d589-4096-890c-99b0738763e0",
+      "fecha": "2026-11-11T21:04:51.084Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "e7fd4579-d547-46a9-9a02-066a68153951",
+      "fecha": "2026-11-11T21:04:56.675Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "b955a67f-a4f1-489b-9919-d8a38b687b93",
+      "fecha": "2026-11-11T21:04:57.702Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "fbc9d449-c3e2-460f-a417-08d1b47bc3dd",
+      "fecha": "2026-11-11T21:05:02.484Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "dark",
+      "referencia": ""
+    },
+    {
+      "id": "bb2ea671-7e26-4099-b80b-1542f7b4838e",
+      "fecha": "2026-11-11T21:05:09.189Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Urbanización Demo MAX",
+      "referencia": "URB-001"
+    },
+    {
+      "id": "f7493e84-2f5e-4b16-a0d7-674e8f8b5c9a",
+      "fecha": "2026-11-11T21:12:38.200Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_usuario",
+      "detalle": "usuario.2 (lector)",
+      "referencia": "fbe54836-9acc-4302-80c7-ecfafcf13987"
+    },
+    {
+      "id": "d30f64f6-dbd7-444f-abc6-e1d75d0e7de6",
+      "fecha": "2026-11-11T21:12:52.447Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte PDF/impresión de 4 lotes",
+      "referencia": ""
+    },
+    {
+      "id": "38495455-a856-4ffa-9806-03c11fe79517",
+      "fecha": "2026-11-11T21:13:26.909Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "2333a9bc-6cb0-41f4-9b52-dd0ebf7273cd",
+      "fecha": "2026-11-11T21:16:13.355Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "612c0728-6aa4-4c72-af02-9aa8947c16a7",
+      "fecha": "2026-11-11T21:16:14.063Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "7499d63d-7fda-40d0-9bd3-8bf5f262859f",
+      "fecha": "2026-11-11T21:16:23.365Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "3bb4bf61-9530-4de6-9a3f-eafb7687f899",
+      "fecha": "2026-11-11T21:16:28.722Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "d09638d1-92cf-46ed-a58c-db93dbf36e6d",
+      "fecha": "2026-11-11T21:16:34.303Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "7613452b-1de1-43b5-8793-3570308b8162",
+      "fecha": "2026-11-11T21:16:34.920Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "fc93a56a-5f29-4d35-92a0-2485fc610098",
+      "fecha": "2026-11-11T21:16:34.926Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "30211ba8-1651-4b52-9df2-1026452ee30b",
+      "fecha": "2026-11-11T21:16:41.242Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "6b99c407-b285-43fa-9591-4e3047b73cb3",
+      "fecha": "2026-11-11T21:16:41.896Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "80232a3a-9313-4112-be2e-714c39ef087b",
+      "fecha": "2026-11-11T21:16:50.060Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "f342a478-12c9-48e0-ba41-26b2ba7a8714",
+      "fecha": "2026-11-11T21:16:59.044Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.276706, -19.054589 · B: -65.275006, -19.053225 · 234.4 m",
+      "referencia": ""
+    },
+    {
+      "id": "028f7430-b676-4ad4-afca-97c2e0814ec3",
+      "fecha": "2026-11-11T21:17:09.684Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "medicion_superficie",
+      "detalle": "3 vértices · 4.804 ha",
+      "referencia": ""
+    },
+    {
+      "id": "2a89df86-b75a-45f1-b16a-d7af5270c857",
+      "fecha": "2026-11-11T21:18:19.186Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cierre_sesion",
+      "detalle": "Salida del sistema",
+      "referencia": ""
+    },
+    {
+      "id": "bb11af66-5cf9-4cc1-b6f0-1cdaebfb3cca",
+      "fecha": "2026-11-11T21:18:27.425Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "6ff19c79-c1e2-46cc-8b60-c1fa83d9b28f",
+      "fecha": "2026-11-11T21:32:00.350Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "21c8b06b-5f44-4d6e-bb93-2369cda26e79",
+      "fecha": "2026-11-11T21:33:07.252Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_cotizacion",
+      "detalle": "COT-623700C3 · Lote 001 · Bs 78000",
+      "referencia": "COT-623700C3"
+    },
+    {
+      "id": "0c8e7b3e-2108-4502-88c0-52c299bbd164",
+      "fecha": "2026-11-11T21:33:10.524Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-623700C3",
+      "referencia": "COT-623700C3"
+    },
+    {
+      "id": "c20be379-874d-4640-a3a0-5931198636bf",
+      "fecha": "2026-11-11T21:33:33.379Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "max iversiones",
+      "referencia": ""
+    },
+    {
+      "id": "e94629f9-fd1f-4eed-a3a4-1fe3cad36beb",
+      "fecha": "2026-11-11T21:33:36.990Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "max inversiones",
+      "referencia": ""
+    },
+    {
+      "id": "c6f4bb21-25c3-4b4d-9249-2c592ae2c594",
+      "fecha": "2026-11-11T21:33:44.275Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "azari",
+      "referencia": ""
+    },
+    {
+      "id": "50ee1034-c6c2-4d10-9b29-f56a4c4e2737",
+      "fecha": "2026-11-11T21:34:52.191Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.238711, -19.097638 · B: -65.234695, -19.097836 · 422.6 m",
+      "referencia": ""
+    },
+    {
+      "id": "a07129fc-e62a-4ca1-9d9e-ea93c413517b",
+      "fecha": "2026-11-11T21:43:19.180Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Urbanización Demo MAX",
+      "referencia": "URB-001"
+    },
+    {
+      "id": "28c05ce6-091d-4960-aaa3-3bf5978b3f81",
+      "fecha": "2026-11-11T21:44:05.927Z",
+      "usuarioId": "sistema",
+      "usuario": "sistema",
+      "nombre": "Migración de datos",
+      "accion": "importacion_karapanza",
+      "detalle": "Sustituida urbanización de demostración. 40 lotes de Karapanza cargados como vendidos.",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "81054010-c584-4b1e-9265-fadebe3d46e6",
+      "fecha": "2026-11-11T21:47:38.691Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "61dec8b5-c84d-4f12-b98d-9ebd6df922d6",
+      "fecha": "2026-11-11T21:47:41.036Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Karapanza de Corazón III",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "93c4a828-9fea-4900-8aea-232abe00e573",
+      "fecha": "2026-11-11T21:47:55.340Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "55fd9e53-d65f-45ff-923e-d641631bec35",
+      "fecha": "2026-11-11T21:47:55.964Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "8edca844-24a0-4639-8900-e748c69c03dc",
+      "fecha": "2026-11-11T21:47:57.099Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "c6c999a1-e430-4c24-b5e9-40e35c1f1faf",
+      "fecha": "2026-11-11T21:47:57.739Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "3a256969-4586-4d3a-932a-55bdeea105e7",
+      "fecha": "2026-11-11T21:47:58.268Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "2513644e-bfb2-4208-a94f-41b796868a1f",
+      "fecha": "2026-11-11T21:48:01.268Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Karapanza de Corazón III",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "4c391da8-3eca-478b-86d0-19964a4e7a50",
+      "fecha": "2026-11-11T21:48:02.549Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "3ddf5f65-1e7f-4ddb-8a99-a25023c97acb",
+      "fecha": "2026-11-11T21:48:03.644Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "2140421c-0da6-4cb4-bf83-d669a4053cf0",
+      "fecha": "2026-11-11T21:48:04.875Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "73b705fd-4170-45c0-92eb-d3f083dfb3aa",
+      "fecha": "2026-11-11T21:48:06.859Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "729a2125-26c2-48c9-8831-224020cb1ac2",
+      "fecha": "2026-11-11T21:48:07.442Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "fb4d0583-ad7f-4a25-b14d-5169a266cd7e",
+      "fecha": "2026-11-11T21:48:08.043Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "4b8afa60-c8e8-47ea-8e48-813b4fa5ea2e",
+      "fecha": "2026-11-11T21:48:11.261Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-18",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "005cc1bd-d0c1-4da0-871d-ad1d7dfc1b95",
+      "fecha": "2026-11-11T21:48:21.263Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-18: vendido → reservado",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "7902ed9a-dd29-4e22-84c8-212ef5fde5ca",
+      "fecha": "2026-11-11T21:48:27.915Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-18",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "78300a2a-838f-4ab3-a064-1cde3e7d8db9",
+      "fecha": "2026-11-11T21:49:23.972Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "756a03d0-baf2-4b18-bd37-f83dd9d65088",
+      "fecha": "2026-11-11T21:49:28.947Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "f2576fa6-cf8a-46db-91e8-dd60f8c113d6",
+      "fecha": "2026-11-11T21:49:29.457Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "35783cd7-d268-453e-9f97-ecf2c3a0061c",
+      "fecha": "2026-11-11T21:49:30.227Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "40bc696d-d9f4-4bb9-8f61-f623e9b6f857",
+      "fecha": "2026-11-11T21:49:30.977Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "84ebd5e1-a6f8-47f4-8717-727dd82d45bc",
+      "fecha": "2026-11-11T21:50:15.563Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_puntos",
+      "detalle": "Bajo Azari",
+      "referencia": "POI-043C4981"
+    },
+    {
+      "id": "5a88343a-ab45-427c-9b6f-08fa60e1ad45",
+      "fecha": "2026-11-11T21:51:33.260Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_cotizacion",
+      "detalle": "COT-526732AB · A-18 · Bs 58000",
+      "referencia": "COT-526732AB"
+    },
+    {
+      "id": "54b27b0b-05d0-42bb-910d-7fc28699e9f3",
+      "fecha": "2026-11-11T21:51:37.132Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-526732AB",
+      "referencia": "COT-526732AB"
+    },
+    {
+      "id": "1305f710-0475-4ba7-9f2c-acc709a7b1b5",
+      "fecha": "2026-11-11T21:51:49.740Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "e7dfcb49-a789-4fd0-aedb-e86e7a0c0a59",
+      "fecha": "2026-11-11T23:42:56.551Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "9f2d8c65-e443-4264-b41b-6ff624cf8e22",
+      "fecha": "2026-11-11T23:43:08.873Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "867dc53e-cf2c-410c-9985-f4751d8e3e7e",
+      "fecha": "2026-11-11T23:43:20.398Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "azari",
+      "referencia": ""
+    },
+    {
+      "id": "10f781a8-d3ea-41f4-9eae-005d77871b72",
+      "fecha": "2026-11-11T23:43:29.042Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Karapanza de Corazón III",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "e6a47340-1446-48fa-8141-9ee17322194a",
+      "fecha": "2026-11-11T23:43:31.161Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "51d367a9-dc53-4849-8949-55e330fc5547",
+      "fecha": "2026-11-11T23:43:32.098Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "e8757cbb-19a4-4552-baef-4dcb0df13305",
+      "fecha": "2026-11-11T23:43:33.863Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "406a7788-d58f-417d-ba17-9da122a6dcdc",
+      "fecha": "2026-11-11T23:43:34.430Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "6aa9d09b-21f7-4221-bfde-f3e5b85ff5ba",
+      "fecha": "2026-11-11T23:43:44.234Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-16",
+      "referencia": "KAR-III-A-16"
+    },
+    {
+      "id": "ef106e7c-a419-400d-9e04-7cae758d4787",
+      "fecha": "2026-11-11T23:43:56.152Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-16",
+      "referencia": "KAR-III-A-16"
+    },
+    {
+      "id": "2a1e7e87-e51d-47f2-9765-0e252985c10d",
+      "fecha": "2026-11-11T23:44:12.208Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-18",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "9b8c5fcf-6d7d-43f3-930c-05d16e2824a7",
+      "fecha": "2026-11-11T23:44:16.047Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "B-15",
+      "referencia": "KAR-III-B-15"
+    },
+    {
+      "id": "f5289535-bbbd-44fd-a07a-bc5db10474ec",
+      "fecha": "2026-11-11T23:44:40.288Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "B-2",
+      "referencia": "KAR-III-B-02"
+    },
+    {
+      "id": "a3842d6d-3baf-4e9d-8c72-70a71f2c6f51",
+      "fecha": "2026-11-11T23:44:45.272Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-18",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "d49f7512-55c4-4d1f-a50b-4790686ff85f",
+      "fecha": "2026-11-11T23:45:08.925Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.233937, -19.118277 · B: -65.233660, -19.123016 · 527.7 m",
+      "referencia": ""
+    },
+    {
+      "id": "c03d04a4-4c87-469f-890e-0f38fa29d261",
+      "fecha": "2026-11-11T23:45:18.186Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-17",
+      "referencia": "KAR-III-A-17"
+    },
+    {
+      "id": "d5841dd8-5481-468c-a3bc-90b9fa0ef55e",
+      "fecha": "2026-11-11T23:45:22.317Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-17: vendido → reservado",
+      "referencia": "KAR-III-A-17"
+    },
+    {
+      "id": "7c0ddc92-e9e4-4dcb-98dd-2fca67c8bdb7",
+      "fecha": "2026-11-11T23:45:58.640Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-16",
+      "referencia": "KAR-III-A-16"
+    },
+    {
+      "id": "2c30eaae-c919-452c-9766-c236705ef5e6",
+      "fecha": "2026-11-11T23:46:59.438Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_cotizacion",
+      "detalle": "COT-D6ED7E6C · A-17 · Bs 12500",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "aba1353f-faa6-4c50-8ea4-a5b41f0a2bf2",
+      "fecha": "2026-11-11T23:47:04.723Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-D6ED7E6C",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "318aaf5e-d1ab-4c41-a1d6-9eb10d1345c3",
+      "fecha": "2026-11-11T23:48:58.226Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "f1f72b15-21d3-46ce-95cf-b0ca39031e10",
+      "fecha": "2026-11-11T23:49:01.368Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "f688345d-5704-46f1-a267-aa9b7a91446e",
+      "fecha": "2026-11-11T23:49:19.152Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-D6ED7E6C",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "77e4ca4d-b064-4ee8-8bf1-136ea2ed94c0",
+      "fecha": "2026-11-11T23:50:20.168Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-D6ED7E6C",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "52a06679-a4e7-4c9f-95a6-2f1ac807fc1d",
+      "fecha": "2026-11-11T23:51:58.913Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-D6ED7E6C",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "cfe33916-b0b0-4b4a-8951-b1559b93c059",
+      "fecha": "2026-11-11T23:53:58.125Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_usuario",
+      "detalle": "vendedor.3 (lector)",
+      "referencia": "06855134-e990-4594-9ea0-e6b2af0cee33"
+    },
+    {
+      "id": "6c34c87f-dd4d-469e-a161-6e2c45bd42aa",
+      "fecha": "2026-11-11T23:54:06.607Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cierre_sesion",
+      "detalle": "Salida del sistema",
+      "referencia": ""
+    },
+    {
+      "id": "9ce99128-7b72-4e93-be0f-6d9ffbcdb476",
+      "fecha": "2026-11-11T23:54:10.723Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "e6fd64bc-1713-4da4-9024-2d745a52ed53",
+      "fecha": "2026-11-11T23:54:28.400Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "1aad5ea1-0a7d-4922-ac7f-e4676f6d624a",
+      "fecha": "2026-11-11T23:54:29.239Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "e9853799-b0c8-456a-b89d-419d66257888",
+      "fecha": "2026-11-11T23:55:04.063Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "9fab1609-2345-42a3-bd41-7e81fc776a0b",
+      "fecha": "2026-11-11T23:55:04.632Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "b37225e6-2625-44bb-812c-63764d4613df",
+      "fecha": "2026-11-11T23:55:11.999Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "2efd2041-7ea7-4b7a-a1b4-2787ae80d70a",
+      "fecha": "2026-11-11T23:55:30.001Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "4eddaf69-2f1e-4b0a-a599-fd41fa67e2e2",
+      "fecha": "2026-11-11T23:57:01.217Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.233843, -19.118374 · B: -65.234215, -19.121620 · 363.1 m",
+      "referencia": ""
+    },
+    {
+      "id": "d0682808-2a87-4462-98bd-f50008d4af7b",
+      "fecha": "2026-11-12T00:04:30.624Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "cierre_sesion",
+      "detalle": "Salida del sistema",
+      "referencia": ""
+    },
+    {
+      "id": "a0f98e28-13d6-433a-80b9-df30bec7d9d5",
+      "fecha": "2026-11-12T00:04:59.442Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "a542ffb2-f13d-40d8-97b6-f09d77d4f9c5",
+      "fecha": "2026-11-12T00:05:38.576Z",
+      "usuarioId": "06855134-e990-4594-9ea0-e6b2af0cee33",
+      "usuario": "vendedor.3",
+      "nombre": "Daniel Vino",
+      "accion": "cierre_sesion",
+      "detalle": "Salida del sistema",
+      "referencia": ""
+    },
+    {
+      "id": "6fd8584b-0482-4cf8-a02d-14556a7fd43a",
+      "fecha": "2026-11-12T00:06:37.724Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "f4f25396-90f5-46cd-8e4e-d4990b7b8a9c",
+      "fecha": "2026-11-12T00:06:48.417Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "5db41ff9-b800-4770-8218-589442d4f4fb",
+      "fecha": "2026-11-12T00:07:45.792Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "db8a452e-f4a8-4693-874a-b88333d53753",
+      "fecha": "2026-11-12T00:07:46.254Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "85bea5e0-bc06-4428-b58f-ff7d148afb9b",
+      "fecha": "2026-11-12T00:07:51.425Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-18",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "d32a204c-4ce1-4573-aa71-a62570ece662",
+      "fecha": "2026-11-12T00:07:55.299Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-18: reservado → vendido",
+      "referencia": "KAR-III-A-18"
+    },
+    {
+      "id": "b47187bb-30eb-48ed-9ab0-6b1669372417",
+      "fecha": "2026-11-12T00:08:03.943Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-17",
+      "referencia": "KAR-III-A-17"
+    },
+    {
+      "id": "68540840-1a75-4a0d-8fa4-1df2abd32dfb",
+      "fecha": "2026-11-12T00:08:12.394Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-17: reservado → vendido",
+      "referencia": "KAR-III-A-17"
+    },
+    {
+      "id": "099577cd-ef10-4aba-ae3b-188d015cccb0",
+      "fecha": "2026-11-12T00:08:17.172Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-17",
+      "referencia": "KAR-III-A-17"
+    },
+    {
+      "id": "9723bc28-0ad9-4b1a-87a8-d8b679432860",
+      "fecha": "2026-11-12T00:08:44.105Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte PDF/impresión de 40 lotes",
+      "referencia": ""
+    },
+    {
+      "id": "428b79d3-e670-464f-ae69-1aee7e9dcf1a",
+      "fecha": "2026-11-12T00:09:01.721Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-12",
+      "referencia": "KAR-III-A-12"
+    },
+    {
+      "id": "3b696903-a33b-4f0e-8cf4-6558a92d73ac",
+      "fecha": "2026-11-12T00:09:02.369Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "2f9c0bac-a04c-43c2-b10b-eb3f46634a4d",
+      "fecha": "2026-11-12T00:09:04.723Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-13: vendido → disponible",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "b7f35d9f-7a50-44f7-92f9-46443db9d52a",
+      "fecha": "2026-11-12T00:09:07.121Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte PDF/impresión de 40 lotes",
+      "referencia": ""
+    },
+    {
+      "id": "d21f5512-3766-4145-9a99-bc846c1221c6",
+      "fecha": "2026-11-12T00:09:19.979Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-14",
+      "referencia": "KAR-III-A-14"
+    },
+    {
+      "id": "a4f1d670-e599-4a1c-8f19-22012a666ea5",
+      "fecha": "2026-11-12T00:09:24.441Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte PDF/impresión de 40 lotes",
+      "referencia": ""
+    },
+    {
+      "id": "407b6de7-1a6a-4435-aab7-9062b788f5ed",
+      "fecha": "2026-11-12T00:10:49.729Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "B-4",
+      "referencia": "KAR-III-B-04"
+    },
+    {
+      "id": "6b71993f-ea89-4f35-8b7c-0a8f25cda8e0",
+      "fecha": "2026-11-12T00:10:54.937Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "c516db5a-6742-45dc-b2c4-7aaf1fef0050",
+      "fecha": "2026-11-12T00:10:57.421Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-13: disponible → vendido",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "5e2c07e4-c973-476d-884a-c139b0a3b7d8",
+      "fecha": "2026-11-12T00:13:22.475Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.233138, -19.121889 · B: -65.234050, -19.122674 · 129.6 m",
+      "referencia": ""
+    },
+    {
+      "id": "0401ea37-7908-41b4-abc2-fe94cd87debd",
+      "fecha": "2026-11-27T17:07:58.791Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "89d96250-a618-4ca1-be83-a4cb3b2dd915",
+      "fecha": "2026-11-27T17:08:05.973Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "e452477f-a455-4a43-a223-86119965b3db",
+      "fecha": "2026-11-27T17:08:07.884Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "c315db19-1efc-43c0-bac7-9f641d3eced0",
+      "fecha": "2026-11-27T17:08:08.424Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "ef66b27e-3b5a-46ea-9c45-ebb3090fc0c3",
+      "fecha": "2026-11-27T17:08:08.898Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "d4c6cdf8-2d8a-4ee2-b23c-ce5f68f6c989",
+      "fecha": "2026-11-27T17:08:09.617Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "68cd7415-254e-46a8-9b39-b8750c26a6b6",
+      "fecha": "2026-11-27T17:08:10.082Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "102b841a-ee29-42b2-bae2-c59d6199e8d5",
+      "fecha": "2026-11-27T17:09:16.327Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "59aa98f7-5dcd-4fa5-9b4b-1dcf278f7383",
+      "fecha": "2026-11-27T17:09:20.276Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "7e1e81f4-f721-4535-b6c6-65b7a901c401",
+      "fecha": "2026-11-27T17:16:28.217Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "relief",
+      "referencia": ""
+    },
+    {
+      "id": "e16e10c9-a733-48c1-97b6-0f88008d9455",
+      "fecha": "2026-11-27T17:16:31.353Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "59740842-1753-4a5e-92c9-a1a74638c0d3",
+      "fecha": "2026-11-27T17:16:32.507Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "b3afcdab-4e96-47b1-82b0-97a9d27c3be0",
+      "fecha": "2026-11-27T17:16:35.033Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "555ccfec-ea54-48ce-bf0e-6185f460827a",
+      "fecha": "2026-11-27T17:16:37.519Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "c17f965d-fd62-4d95-ac5c-22a8c2791b13",
+      "fecha": "2026-11-27T17:16:38.033Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "6d1722e4-282f-4bf4-a0b5-926d27ffd309",
+      "fecha": "2026-11-27T17:16:43.363Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Karapanza de Corazón III",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "9c7500c4-4b66-4c7a-9dc1-85179ef972e9",
+      "fecha": "2026-11-27T17:16:51.128Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "consulta_lote",
+      "detalle": "B-20",
+      "referencia": "KAR-III-B-20"
+    },
+    {
+      "id": "134d79b1-6acb-464f-832c-e2a844698d50",
+      "fecha": "2026-11-27T17:17:14.881Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte general de lotes PDF · todas, todos",
+      "referencia": ""
+    },
+    {
+      "id": "a86c06f5-7f3a-4b07-bace-f6e3cfa26cd7",
+      "fecha": "2026-11-27T17:28:03.147Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte general de 40 lotes · todas, todos",
+      "referencia": ""
+    },
+    {
+      "id": "ed76933f-4cc2-4d53-9232-e4eb326c9030",
+      "fecha": "2026-11-27T17:28:04.983Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte general de lotes PDF · todas, todos",
+      "referencia": ""
+    },
+    {
+      "id": "3d9f3382-5590-4573-b562-f52e0e816d17",
+      "fecha": "2026-11-27T17:28:25.181Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "292fa6dc-deab-4907-a632-eb2f8de4a239",
+      "fecha": "2026-11-27T17:28:47.959Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-D6ED7E6C",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "a80d15a6-cef2-49e0-b81a-82bf0b330a4a",
+      "fecha": "2026-11-27T17:29:22.064Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-D6ED7E6C",
+      "referencia": "COT-D6ED7E6C"
+    },
+    {
+      "id": "48f50efe-c636-4803-9cdb-2b56aca519ca",
+      "fecha": "2026-11-27T17:33:15.117Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "99f3f8ef-9a75-489f-b232-2350756cc511",
+      "fecha": "2026-11-27T17:33:20.703Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Karapanza de Corazón III",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "fffc0df2-51c1-478f-8fca-7101dbdd11fe",
+      "fecha": "2026-11-27T17:41:28.172Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "a5cfb26d-b29b-429c-a1d9-b411730a483b",
+      "fecha": "2026-11-27T17:41:28.618Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "b6af0c45-74b2-442a-b802-a7680c9a30e5",
+      "fecha": "2026-11-27T17:41:29.401Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "6b96522a-b9f0-4924-bf89-cde8ecb3d4a8",
+      "fecha": "2026-11-27T17:41:30.282Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "be33ce4a-32bd-455f-99a4-852401ee475d",
+      "fecha": "2026-11-27T17:41:31.282Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "757f872c-b07a-4f7c-a2a7-e6f8b86ce4ee",
+      "fecha": "2026-11-27T17:41:33.900Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "20f0ec4e-1d6e-4135-89e0-7cb3beb89be4",
+      "fecha": "2026-11-27T17:41:41.140Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "relief",
+      "referencia": ""
+    },
+    {
+      "id": "fbe2fcb5-c81d-440a-ab0e-c3564ea6af87",
+      "fecha": "2026-11-27T17:41:46.897Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "0df78ead-3e7f-445f-871e-1cf8a76fd945",
+      "fecha": "2026-11-27T17:42:03.298Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cierre_sesion",
+      "detalle": "Salida del sistema",
+      "referencia": ""
+    },
+    {
+      "id": "26c894bd-f87f-4aea-8b28-11bd93cc30c9",
+      "fecha": "2026-11-27T17:42:34.924Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "38b0a652-8e0e-4bee-9b51-c2ae2c4e3b57",
+      "fecha": "2026-11-27T17:42:40.452Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "878798a1-f354-4447-a776-76df342870b6",
+      "fecha": "2026-11-27T17:43:08.145Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-12",
+      "referencia": "KAR-III-A-12"
+    },
+    {
+      "id": "2492d0fa-5f4c-40a8-807d-836dd0983db4",
+      "fecha": "2026-11-27T17:43:08.935Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "3786e345-2763-41db-831b-7019fa17cd0f",
+      "fecha": "2026-11-27T17:43:11.274Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "f18c7362-7c9e-41f7-9004-e7c366aee9dd",
+      "fecha": "2026-11-27T17:43:18.383Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-13: vendido → disponible",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "bca734d2-8880-4ce5-85ce-a67a5aa875cc",
+      "fecha": "2026-11-27T17:47:41.854Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "modificacion_lotes",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "fa0ae65c-badc-4525-b6c6-8a72705c90aa",
+      "fecha": "2026-11-27T17:48:17.483Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_estado_lote",
+      "detalle": "A-13: disponible → vendido",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "78f5bc97-587e-4442-be9a-9725fb2e0ce9",
+      "fecha": "2026-11-27T17:48:28.603Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_lote",
+      "detalle": "A-13",
+      "referencia": "KAR-III-A-13"
+    },
+    {
+      "id": "b6c2daac-5ee6-4b84-abc1-75c036e3129c",
+      "fecha": "2026-11-27T17:48:39.726Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte general de lotes PDF · todas, todos",
+      "referencia": ""
+    },
+    {
+      "id": "c383bf08-4424-45a8-9b69-b5e00fee912f",
+      "fecha": "2026-11-27T18:00:27.003Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte general de lotes PDF · todas, todos",
+      "referencia": ""
+    },
+    {
+      "id": "54e46d22-2e32-486c-849f-17f16ed63cb9",
+      "fecha": "2026-11-27T18:02:50.599Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Karapanza de Corazón III",
+      "referencia": "URB-KARAPANZA-CORAZON-III"
+    },
+    {
+      "id": "eaefb973-e148-4bf2-b567-baa30498d21c",
+      "fecha": "2026-11-27T18:03:00.153Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "f00faefa-948d-45d4-9d36-78eaf52dbde4",
+      "fecha": "2026-11-27T18:03:02.215Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "67875d6b-7ceb-4bbd-aa6e-736ccafe2746",
+      "fecha": "2026-11-27T18:03:05.132Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "relief",
+      "referencia": ""
+    },
+    {
+      "id": "b150f2d8-b744-4e0d-8515-e5e99c298be5",
+      "fecha": "2026-11-27T18:03:06.908Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "1b22f7ea-4ede-4568-87cb-5db6cf087407",
+      "fecha": "2026-11-27T18:03:20.371Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "relief",
+      "referencia": ""
+    }
+  ],
+  "quotes": [
+    {
+      "id": "COT-623700C3",
+      "lotId": "L-001",
+      "codigo": "Lote 001",
+      "urbanizacion": "Urbanización Demo MAX",
+      "superficie_m2": 250,
+      "cliente": "Pablo",
+      "amount": 78000,
+      "observaciones": "Al credito y contado",
+      "fecha": "2026-11-11T21:33:07.252Z",
+      "usuario": "vendedor.1",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af"
+    },
+    {
+      "id": "COT-526732AB",
+      "lotId": "KAR-III-A-18",
+      "codigo": "A-18",
+      "urbanizacion": "Karapanza de Corazón III",
+      "superficie_m2": 153.02,
+      "precioReferencia": null,
+      "cliente": "Daniel",
+      "amount": 58000,
+      "observaciones": "Precio al contado oferta disponibel hasta 12/11/26",
+      "fecha": "2026-11-11T21:51:33.260Z",
+      "usuario": "vendedor.1",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af"
+    },
+    {
+      "id": "COT-D6ED7E6C",
+      "lotId": "KAR-III-A-17",
+      "codigo": "A-17",
+      "urbanizacion": "Karapanza de Corazón III",
+      "superficie_m2": 150.17,
+      "precioReferencia": null,
+      "cliente": "Daniel",
+      "amount": 12500,
+      "observaciones": "🏡 URB. KARAPANZA DE CORAZÓN III\n💰 Precio: 12.500 $us\n💳 Cuota inicial: 300 $us\n⏰ Plazo: 72 meses",
+      "fecha": "2026-11-11T23:46:59.438Z",
+      "usuario": "vendedor.1",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af"
+    }
+  ],
+  "operations": [
+    {
+      "id": "ee368410-da7d-4293-9321-aff06b81fe2d",
+      "lotId": "KAR-III-A-13",
+      "codigo": "A-13",
+      "urbanizacion": "Karapanza de Corazón III",
+      "tipo": "vendido",
+      "persona": {
+        "nombre": "Ariana",
+        "apellido": "Calderon",
+        "ci": "13829532",
+        "numero": "68669218",
+        "numeroRef": "69699974"
+      },
+      "creado": "2026-11-27T17:48:17.483Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "estado": "registrada",
+      "reservaVenceEn": null,
+      "modalidad": "cuotas",
+      "detalleModalidad": ""
+    }
+  ],
+  "notifications": [],
+  "collections": {
+    "urbanizaciones": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "URB-KARAPANZA-CORAZON-III",
+            "nombre": "Karapanza de Corazón III",
+            "ciudad": "Sucre",
+            "descripcion": "Urbanización real digitalizada a partir del plano URB. KARAPANZA DE CORAZON III. Todos los lotes de venta cargados inicialmente como vendidos.",
+            "superficie_plano_m2": 14645.16,
+            "sistema_original": "UTM 20S (EPSG:32720); datum WGS84 supuesto para visualización, confirmar en levantamiento",
+            "precision_perimetro": "vértices UTM transcritos del plano; confirmar datum antes de uso catastral",
+            "fuente": "URB.KARAPANZA DE CORAZON III.pdf",
+            "coordenadas_utm": {
+              "V-1": {
+                "este": 264949.395,
+                "norte": 7883987.731
+              },
+              "V-2": {
+                "este": 265039.425,
+                "norte": 7884057.941
+              },
+              "V-3": {
+                "este": 265117.034,
+                "norte": 7883974.502
+              },
+              "V-4": {
+                "este": 265053.002,
+                "norte": 7883868.33
+              }
+            },
+            "url_ubicacion": "https://maps.app.goo.gl/JYJHmesjDmLh1d5Q7?g_st=ac",
+            "coordenada_referencia": [
+              -65.234213,
+              -19.123602
+            ]
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23447035,
+                  -19.12365944
+                ],
+                [
+                  -65.23360645,
+                  -19.12303579
+                ],
+                [
+                  -65.23287922,
+                  -19.12379826
+                ],
+                [
+                  -65.23350047,
+                  -19.12474967
+                ],
+                [
+                  -65.23447035,
+                  -19.12365944
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "lotes": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-01",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-1",
+            "manzano": "A",
+            "superficie_m2": 174.44,
+            "lote_numero": 1
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23428354,
+                  -19.12361478
+                ],
+                [
+                  -65.23427017,
+                  -19.1236177
+                ],
+                [
+                  -65.23423631,
+                  -19.12365473
+                ],
+                [
+                  -65.2343757,
+                  -19.12377123
+                ],
+                [
+                  -65.23443214,
+                  -19.12370951
+                ],
+                [
+                  -65.23432692,
+                  -19.1236331
+                ],
+                [
+                  -65.23428354,
+                  -19.12361478
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-02",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-2",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 2
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23423631,
+                  -19.12365473
+                ],
+                [
+                  -65.23418585,
+                  -19.12370991
+                ],
+                [
+                  -65.23432524,
+                  -19.12382641
+                ],
+                [
+                  -65.2343757,
+                  -19.12377123
+                ],
+                [
+                  -65.23423631,
+                  -19.12365473
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-03",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-3",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 3
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23418585,
+                  -19.12370991
+                ],
+                [
+                  -65.23413605,
+                  -19.12376437
+                ],
+                [
+                  -65.23427544,
+                  -19.12388086
+                ],
+                [
+                  -65.23432524,
+                  -19.12382641
+                ],
+                [
+                  -65.23418585,
+                  -19.12370991
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-04",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-4",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 4
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23413605,
+                  -19.12376437
+                ],
+                [
+                  -65.23408559,
+                  -19.12381955
+                ],
+                [
+                  -65.23422498,
+                  -19.12393605
+                ],
+                [
+                  -65.23427544,
+                  -19.12388086
+                ],
+                [
+                  -65.23413605,
+                  -19.12376437
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-05",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-5",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 5
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23408559,
+                  -19.12381955
+                ],
+                [
+                  -65.23403645,
+                  -19.12387328
+                ],
+                [
+                  -65.23417584,
+                  -19.12398978
+                ],
+                [
+                  -65.23422498,
+                  -19.12393605
+                ],
+                [
+                  -65.23408559,
+                  -19.12381955
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-06",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-6",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 6
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23403645,
+                  -19.12387328
+                ],
+                [
+                  -65.23398599,
+                  -19.12392847
+                ],
+                [
+                  -65.23412538,
+                  -19.12404496
+                ],
+                [
+                  -65.23417584,
+                  -19.12398978
+                ],
+                [
+                  -65.23403645,
+                  -19.12387328
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-07",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-7",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 7
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23398599,
+                  -19.12392847
+                ],
+                [
+                  -65.23393752,
+                  -19.12398147
+                ],
+                [
+                  -65.23407691,
+                  -19.12409797
+                ],
+                [
+                  -65.23412538,
+                  -19.12404496
+                ],
+                [
+                  -65.23398599,
+                  -19.12392847
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-08",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-8",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 8
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23393752,
+                  -19.12398147
+                ],
+                [
+                  -65.23388839,
+                  -19.1240352
+                ],
+                [
+                  -65.23402778,
+                  -19.1241517
+                ],
+                [
+                  -65.23407691,
+                  -19.12409797
+                ],
+                [
+                  -65.23393752,
+                  -19.12398147
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-09",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-9",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 9
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23388839,
+                  -19.1240352
+                ],
+                [
+                  -65.23383925,
+                  -19.12408893
+                ],
+                [
+                  -65.23397864,
+                  -19.12420543
+                ],
+                [
+                  -65.23402778,
+                  -19.1241517
+                ],
+                [
+                  -65.23388839,
+                  -19.1240352
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-10",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-10",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 10
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23383925,
+                  -19.12408893
+                ],
+                [
+                  -65.23378813,
+                  -19.12414484
+                ],
+                [
+                  -65.23392752,
+                  -19.12426134
+                ],
+                [
+                  -65.23397864,
+                  -19.12420543
+                ],
+                [
+                  -65.23383925,
+                  -19.12408893
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-11",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-11",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 11
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23378813,
+                  -19.12414484
+                ],
+                [
+                  -65.23373899,
+                  -19.12419857
+                ],
+                [
+                  -65.23387838,
+                  -19.12431507
+                ],
+                [
+                  -65.23392752,
+                  -19.12426134
+                ],
+                [
+                  -65.23378813,
+                  -19.12414484
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-12",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-12",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 12
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23373899,
+                  -19.12419857
+                ],
+                [
+                  -65.23368786,
+                  -19.12425448
+                ],
+                [
+                  -65.23382726,
+                  -19.12437098
+                ],
+                [
+                  -65.23387838,
+                  -19.12431507
+                ],
+                [
+                  -65.23373899,
+                  -19.12419857
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-13",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-13",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 13,
+            "fecha_venta": null,
+            "vigencia_cotizacion_dias": null,
+            "reservaVenceEn": null,
+            "ultimaOperacionId": "ee368410-da7d-4293-9321-aff06b81fe2d",
+            "precio_usd": "13900",
+            "cuota_inicial_usd": "300",
+            "plazo_meses": 72,
+            "tipo_cambio": "7",
+            "promocion": "Descuento de 5% si eres potosino",
+            "servicios": [
+              "Tendido eléctrico",
+              "Tanque de agua"
+            ],
+            "saldo_usd_exacto": "13600",
+            "cuota_mensual_bs_exacta": "1322.(2)",
+            "cuota_mensual_bs_fraccion": "11900/9"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23368786,
+                  -19.12425448
+                ],
+                [
+                  -65.23363807,
+                  -19.12430894
+                ],
+                [
+                  -65.23377746,
+                  -19.12442543
+                ],
+                [
+                  -65.23382726,
+                  -19.12437098
+                ],
+                [
+                  -65.23368786,
+                  -19.12425448
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-14",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-14",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 14
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23363807,
+                  -19.12430894
+                ],
+                [
+                  -65.2335876,
+                  -19.12436412
+                ],
+                [
+                  -65.233727,
+                  -19.12448061
+                ],
+                [
+                  -65.23377746,
+                  -19.12442543
+                ],
+                [
+                  -65.23363807,
+                  -19.12430894
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-15",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-15",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 15
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2335876,
+                  -19.12436412
+                ],
+                [
+                  -65.23353581,
+                  -19.12442075
+                ],
+                [
+                  -65.2336752,
+                  -19.12453725
+                ],
+                [
+                  -65.233727,
+                  -19.12448061
+                ],
+                [
+                  -65.2335876,
+                  -19.12436412
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-16",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-16",
+            "manzano": "A",
+            "superficie_m2": 160,
+            "lote_numero": 16
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23353581,
+                  -19.12442075
+                ],
+                [
+                  -65.23348203,
+                  -19.12447957
+                ],
+                [
+                  -65.23362142,
+                  -19.12459606
+                ],
+                [
+                  -65.2336752,
+                  -19.12453725
+                ],
+                [
+                  -65.23353581,
+                  -19.12442075
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-17",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-17",
+            "manzano": "A",
+            "superficie_m2": 150.17,
+            "lote_numero": 17
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23348203,
+                  -19.12447957
+                ],
+                [
+                  -65.23343157,
+                  -19.12453475
+                ],
+                [
+                  -65.23343098,
+                  -19.12455732
+                ],
+                [
+                  -65.23348095,
+                  -19.12462982
+                ],
+                [
+                  -65.2335593,
+                  -19.12454415
+                ],
+                [
+                  -65.23348203,
+                  -19.12447957
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-A-18",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "A-18",
+            "manzano": "A",
+            "superficie_m2": 153.02,
+            "lote_numero": 18
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2335593,
+                  -19.12454415
+                ],
+                [
+                  -65.23348095,
+                  -19.12462982
+                ],
+                [
+                  -65.23352183,
+                  -19.12470498
+                ],
+                [
+                  -65.23362142,
+                  -19.12459606
+                ],
+                [
+                  -65.2335593,
+                  -19.12454415
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-02",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-2",
+            "manzano": "B",
+            "superficie_m2": 199.9,
+            "lote_numero": 2
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23369008,
+                  -19.12356075
+                ],
+                [
+                  -65.23362634,
+                  -19.12363045
+                ],
+                [
+                  -65.23376951,
+                  -19.12375011
+                ],
+                [
+                  -65.23383326,
+                  -19.12368041
+                ],
+                [
+                  -65.23369008,
+                  -19.12356075
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-01",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-1",
+            "manzano": "B",
+            "superficie_m2": 199.9,
+            "lote_numero": 1
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23383326,
+                  -19.12368041
+                ],
+                [
+                  -65.23376951,
+                  -19.12375011
+                ],
+                [
+                  -65.23391345,
+                  -19.12387041
+                ],
+                [
+                  -65.23397719,
+                  -19.1238007
+                ],
+                [
+                  -65.23383326,
+                  -19.12368041
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-03",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-3",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 3
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23362634,
+                  -19.12363045
+                ],
+                [
+                  -65.23357587,
+                  -19.12368563
+                ],
+                [
+                  -65.23371905,
+                  -19.12380529
+                ],
+                [
+                  -65.23376951,
+                  -19.12375011
+                ],
+                [
+                  -65.23362634,
+                  -19.12363045
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-22",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-22",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 22
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23376951,
+                  -19.12375011
+                ],
+                [
+                  -65.23371905,
+                  -19.12380529
+                ],
+                [
+                  -65.23386299,
+                  -19.12392559
+                ],
+                [
+                  -65.23391345,
+                  -19.12387041
+                ],
+                [
+                  -65.23376951,
+                  -19.12375011
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-04",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-4",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 4
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23357587,
+                  -19.12368563
+                ],
+                [
+                  -65.23352541,
+                  -19.12374082
+                ],
+                [
+                  -65.23366859,
+                  -19.12386048
+                ],
+                [
+                  -65.23371905,
+                  -19.12380529
+                ],
+                [
+                  -65.23357587,
+                  -19.12368563
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-21",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-21",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 21
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23371905,
+                  -19.12380529
+                ],
+                [
+                  -65.23366859,
+                  -19.12386048
+                ],
+                [
+                  -65.23381253,
+                  -19.12398077
+                ],
+                [
+                  -65.23386299,
+                  -19.12392559
+                ],
+                [
+                  -65.23371905,
+                  -19.12380529
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-05",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-5",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 5
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23352541,
+                  -19.12374082
+                ],
+                [
+                  -65.23347628,
+                  -19.12379455
+                ],
+                [
+                  -65.23361946,
+                  -19.12391421
+                ],
+                [
+                  -65.23366859,
+                  -19.12386048
+                ],
+                [
+                  -65.23352541,
+                  -19.12374082
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-20",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-20",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 20
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23366859,
+                  -19.12386048
+                ],
+                [
+                  -65.23361946,
+                  -19.12391421
+                ],
+                [
+                  -65.23376339,
+                  -19.1240345
+                ],
+                [
+                  -65.23381253,
+                  -19.12398077
+                ],
+                [
+                  -65.23366859,
+                  -19.12386048
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-06",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-6",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 6
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23347628,
+                  -19.12379455
+                ],
+                [
+                  -65.23342515,
+                  -19.12385046
+                ],
+                [
+                  -65.23356833,
+                  -19.12397012
+                ],
+                [
+                  -65.23361946,
+                  -19.12391421
+                ],
+                [
+                  -65.23347628,
+                  -19.12379455
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-19",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-19",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 19
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23361946,
+                  -19.12391421
+                ],
+                [
+                  -65.23356833,
+                  -19.12397012
+                ],
+                [
+                  -65.23371227,
+                  -19.12409041
+                ],
+                [
+                  -65.23376339,
+                  -19.1240345
+                ],
+                [
+                  -65.23361946,
+                  -19.12391421
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-07",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-7",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 7
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23342515,
+                  -19.12385046
+                ],
+                [
+                  -65.23337535,
+                  -19.12390491
+                ],
+                [
+                  -65.23351853,
+                  -19.12402457
+                ],
+                [
+                  -65.23356833,
+                  -19.12397012
+                ],
+                [
+                  -65.23342515,
+                  -19.12385046
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-18",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-18",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 18
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23356833,
+                  -19.12397012
+                ],
+                [
+                  -65.23351853,
+                  -19.12402457
+                ],
+                [
+                  -65.23366247,
+                  -19.12414487
+                ],
+                [
+                  -65.23371227,
+                  -19.12409041
+                ],
+                [
+                  -65.23356833,
+                  -19.12397012
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-08",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-8",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 8
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23337535,
+                  -19.12390491
+                ],
+                [
+                  -65.23332489,
+                  -19.1239601
+                ],
+                [
+                  -65.23346807,
+                  -19.12407976
+                ],
+                [
+                  -65.23351853,
+                  -19.12402457
+                ],
+                [
+                  -65.23337535,
+                  -19.12390491
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-17",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-17",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 17
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23351853,
+                  -19.12402457
+                ],
+                [
+                  -65.23346807,
+                  -19.12407976
+                ],
+                [
+                  -65.23361201,
+                  -19.12420005
+                ],
+                [
+                  -65.23366247,
+                  -19.12414487
+                ],
+                [
+                  -65.23351853,
+                  -19.12402457
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-09",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-9",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 9
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23332489,
+                  -19.1239601
+                ],
+                [
+                  -65.23327443,
+                  -19.12401528
+                ],
+                [
+                  -65.23341761,
+                  -19.12413494
+                ],
+                [
+                  -65.23346807,
+                  -19.12407976
+                ],
+                [
+                  -65.23332489,
+                  -19.1239601
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-16",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-16",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 16
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23346807,
+                  -19.12407976
+                ],
+                [
+                  -65.23341761,
+                  -19.12413494
+                ],
+                [
+                  -65.23356154,
+                  -19.12425523
+                ],
+                [
+                  -65.23361201,
+                  -19.12420005
+                ],
+                [
+                  -65.23346807,
+                  -19.12407976
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-10",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-10",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 10
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23327443,
+                  -19.12401528
+                ],
+                [
+                  -65.23322463,
+                  -19.12406973
+                ],
+                [
+                  -65.23336781,
+                  -19.1241894
+                ],
+                [
+                  -65.23341761,
+                  -19.12413494
+                ],
+                [
+                  -65.23327443,
+                  -19.12401528
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-15",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-15",
+            "manzano": "B",
+            "superficie_m2": 160,
+            "lote_numero": 15
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23341761,
+                  -19.12413494
+                ],
+                [
+                  -65.23336781,
+                  -19.1241894
+                ],
+                [
+                  -65.23351174,
+                  -19.12430969
+                ],
+                [
+                  -65.23356154,
+                  -19.12425523
+                ],
+                [
+                  -65.23341761,
+                  -19.12413494
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-11",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-11",
+            "manzano": "B",
+            "superficie_m2": 180.49,
+            "lote_numero": 11
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23322463,
+                  -19.12406973
+                ],
+                [
+                  -65.23316686,
+                  -19.1241329
+                ],
+                [
+                  -65.23316219,
+                  -19.12416871
+                ],
+                [
+                  -65.23321738,
+                  -19.12423405
+                ],
+                [
+                  -65.23330569,
+                  -19.12413748
+                ],
+                [
+                  -65.23322463,
+                  -19.12406973
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-12",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-12",
+            "manzano": "B",
+            "superficie_m2": 180.5,
+            "lote_numero": 12
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23330569,
+                  -19.12413748
+                ],
+                [
+                  -65.23321738,
+                  -19.12423405
+                ],
+                [
+                  -65.23327483,
+                  -19.12431153
+                ],
+                [
+                  -65.23337841,
+                  -19.12419826
+                ],
+                [
+                  -65.23330569,
+                  -19.12413748
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-13",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-13",
+            "manzano": "B",
+            "superficie_m2": 180.5,
+            "lote_numero": 13
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23337841,
+                  -19.12419826
+                ],
+                [
+                  -65.23327483,
+                  -19.12431153
+                ],
+                [
+                  -65.23332689,
+                  -19.12438322
+                ],
+                [
+                  -65.23344508,
+                  -19.12425397
+                ],
+                [
+                  -65.23337841,
+                  -19.12419826
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "KAR-III-B-14",
+            "urbanizacion": "Karapanza de Corazón III",
+            "estado": "vendido",
+            "precio": null,
+            "fuente": "Plano URB. KARAPANZA DE CORAZON III",
+            "precision_geometria": "referencial: digitizado del plano; NO es coordenada individual certificada",
+            "observaciones": "Estado vendido asignado por solicitud; verificar límites de cada lote con levantamiento catastral.",
+            "codigo": "B-14",
+            "manzano": "B",
+            "superficie_m2": 182.22,
+            "lote_numero": 14
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.23344508,
+                  -19.12425397
+                ],
+                [
+                  -65.23332689,
+                  -19.12438322
+                ],
+                [
+                  -65.23336892,
+                  -19.12443372
+                ],
+                [
+                  -65.23340617,
+                  -19.12442514
+                ],
+                [
+                  -65.23351174,
+                  -19.12430969
+                ],
+                [
+                  -65.23344508,
+                  -19.12425397
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "puntos": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "nombre": "Bajo Azari",
+            "tipo": "otro",
+            "descripcion": "Comunidad",
+            "id": "POI-043C4981"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -65.2339821,
+              -19.118261
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

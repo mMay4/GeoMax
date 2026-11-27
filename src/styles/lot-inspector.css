@@ -1,0 +1,207 @@
+/* GeoMax | Inspector de lotes fijo dentro del mapa.
+   Evita que el popup anclado al polígono quede fuera de la pantalla. */
+.app-shell .map-root { position:relative; }
+.app-shell .gm-map-inspector {
+  position:absolute;
+  top:14px;
+  left:16px;
+  z-index:48;
+  width:min(600px, calc(100% - 112px));
+  max-height:calc(100% - 28px);
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  scrollbar-width:thin;
+  scrollbar-color:#a6c9ad #f4f6f1;
+  background:#fffefa;
+  border:1px solid #eadfd1;
+  border-radius:14px;
+  box-shadow:0 14px 38px rgba(21,46,31,.24);
+  padding:15px 19px 16px;
+  color:#244f37;
+}
+.app-shell .gm-map-inspector__close {
+  position:sticky;
+  float:right;
+  top:0;
+  z-index:5;
+  display:grid;
+  place-items:center;
+  width:31px;
+  height:31px;
+  margin:-2px -4px 4px 12px;
+  border:1px solid #ebbf86;
+  border-radius:8px;
+  background:white;
+  color:#308056;
+  font-size:23px;
+  line-height:1;
+  cursor:pointer;
+}
+.app-shell .gm-map-inspector__close:hover {background:#fff2df;}
+.app-shell .gm-map-inspector .gm-lot-popup {
+  padding:0;
+  margin:0;
+  min-width:0;
+  max-height:none;
+  overflow:visible;
+  font-family:'Poppins',sans-serif;
+  font-size:11px;
+  color:#214932;
+}
+.app-shell .gm-map-inspector .gm-inspector-title {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:34px;
+  padding-right:40px;
+  margin-bottom:8px;
+}
+.app-shell .gm-map-inspector .gm-inspector-title h3 {
+  color:#205638;
+  font-size:20px;
+  line-height:1.25;
+  font-weight:800;
+  margin:0;
+}
+.app-shell .gm-map-inspector .gm-inspector-title .status-badge {
+  margin:0;
+  font-size:10px;
+  padding:4px 9px;
+  white-space:nowrap;
+}
+.app-shell .gm-map-inspector .gm-inspector-grid {
+  display:grid;
+  grid-template-columns:minmax(0, 1fr) minmax(0, 1fr);
+  gap:14px;
+  margin-bottom:6px;
+}
+.app-shell .gm-map-inspector .gm-inspector-section {min-width:0;}
+.app-shell .gm-map-inspector .gm-popup-section-title {
+  font-size:12px;
+  color:#308056;
+  margin:7px 0 4px;
+  padding-bottom:5px;
+  border-bottom:2px solid #FC8801;
+}
+.app-shell .gm-map-inspector .popup-table {
+  margin:0;
+  padding:0;
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+.app-shell .gm-map-inspector .popup-table td {
+  border-bottom:1px solid #e7ece7;
+  padding:5px 4px 5px 0;
+  font-size:10.5px;
+  line-height:1.35;
+  vertical-align:top;
+  overflow-wrap:anywhere;
+}
+.app-shell .gm-map-inspector .popup-table td:first-child {
+  width:43%;
+  color:#617667;
+  font-weight:500;
+}
+.app-shell .gm-map-inspector .popup-table td:last-child {
+  color:#24583b;
+  font-weight:700;
+}
+.app-shell .gm-map-inspector .popup-table strong {color:#205638;}
+.app-shell .gm-map-inspector .gm-popup-holder {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:baseline;
+  gap:4px 10px;
+  border-left:3px solid #FC8801;
+  padding:8px 10px;
+  margin:7px 0;
+  border-radius:7px;
+  background:#eef7ed;
+  font-size:11px;
+}
+.app-shell .gm-map-inspector .gm-popup-holder strong {color:#2b7049;}
+.app-shell .gm-map-inspector .gm-popup-holder span {color:#1c492e;font-weight:800;}
+.app-shell .gm-map-inspector .gm-popup-holder small {color:#56775e;}
+.app-shell .gm-map-inspector .gm-popup-geometry-note {
+  margin:4px 0 7px;
+  color:#69746e;
+  font-size:10px;
+}
+.app-shell .gm-map-inspector .gm-popup-countdown {
+  margin:5px 0;
+  border-radius:6px;
+  padding:6px 8px;
+  font-size:10px;
+  background:#eaf5ed;
+}
+.app-shell .gm-map-inspector .gm-inspector-status-details {
+  border:1px solid #c9d9ce;
+  border-radius:8px;
+  margin:8px 0 6px;
+  background:#f5faf5;
+}
+.app-shell .gm-map-inspector .gm-inspector-status-details summary {
+  padding:9px 11px;
+  font-weight:700;
+  font-size:11px;
+  color:#2b6c46;
+  cursor:pointer;
+}
+.app-shell .gm-map-inspector .gm-inspector-status-details[open] summary {
+  border-bottom:1px solid #d8e6db;
+}
+.app-shell .gm-map-inspector .gm-popup-status-form {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  padding:11px;
+}
+.app-shell .gm-map-inspector .gm-lot-operation {
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ecd4b4;
+  background:#fff9ef;
+}
+.app-shell .gm-map-inspector .gm-lot-operation h4 {font-size:12px;margin:0;color:#308056;}
+.app-shell .gm-map-inspector .gm-lot-operation label {display:flex;flex-direction:column;gap:4px;}
+.app-shell .gm-map-inspector .gm-lot-operation input,
+.app-shell .gm-map-inspector .gm-lot-operation select,
+.app-shell .gm-map-inspector .gm-popup-status-form select {
+  width:100%;padding:8px;border-radius:6px;border:1px solid #e3c7a7;background:white;color:#234c34;
+}
+.app-shell .gm-map-inspector .gm-two-col {display:grid;grid-template-columns:1fr 1fr;gap:7px;}
+.app-shell .gm-map-inspector .gm-quick-times {display:flex;flex-wrap:wrap;gap:5px;}
+.app-shell .gm-map-inspector .gm-quick-times button {border:1px solid #e4c797;background:#fff;padding:6px;border-radius:5px;}
+.app-shell .gm-map-inspector .gm-popup-more {width:100%;}
+.app-shell .gm-map-inspector .gm-popup-edit-prices {
+  background:#308056;
+  border-color:#308056;
+  color:white;
+  padding:10px 12px;
+  font-size:11px;
+  margin-top:7px;
+}
+.app-shell .gm-map-inspector .gm-popup-edit-prices:hover {background:#24683f;}
+@media (max-width:960px) {
+  .app-shell .gm-map-inspector {width:min(500px, calc(100% - 100px));}
+  .app-shell .gm-map-inspector .gm-inspector-grid {gap:10px;}
+}
+@media (max-width:760px) {
+  .app-shell .gm-map-inspector {
+    left:8px;
+    top:8px;
+    width:calc(100% - 16px);
+    max-height:calc(100% - 16px);
+    padding:13px 14px;
+  }
+  .app-shell .gm-map-inspector .gm-inspector-grid {grid-template-columns:1fr;gap:6px;}
+  .app-shell .gm-map-inspector .gm-inspector-title h3 {font-size:19px;}
+  .app-shell .gm-map-inspector .gm-popup-section-title {margin-top:6px;}
+}
+@media print {
+  .app-shell .gm-map-inspector {display:none!important;}
+}

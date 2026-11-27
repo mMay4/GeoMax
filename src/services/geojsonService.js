@@ -10,12 +10,17 @@ export async function geocodeSucre(query, token) {
   const text = query.trim()
   if (!text) return []
 
-  const maybeCoordinates = text.split(',').map(item => Number(item.trim()))
-  if (maybeCoordinates.length === 2 && maybeCoordinates.every(Number.isFinite)) {
-    let [first, second] = maybeCoordinates
+  const coordinateParts = text.split(',').map(item => item.trim())
+  const looksLikeCoordinates = coordinateParts.length === 2 &&
+    coordinateParts.every(part => part !== '' && Number.isFinite(Number(part)))
 
-    const lng = Math.abs(first) > 90 ? first : second
-    const lat = Math.abs(first) > 90 ? second : first
+  if (looksLikeCoordinates) {
+    const [first, second] = coordinateParts.map(Number)
+    const longitudeFirst = Math.abs(first) > 90 && Math.abs(second) <= 90
+    const lat = longitudeFirst ? second : first
+    const lng = longitudeFirst ? first : second
+
+    if (lat < -90 || lat > 90 || lng < -180 || lng > 180) return []
 
     return [{
       id: 'typed-coordinates',

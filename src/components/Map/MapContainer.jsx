@@ -1,20 +1,30 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import mapboxgl from 'mapbox-gl'
+import { bbox } from '@turf/turf'
 import useMapbox from '../../hooks/useMapbox'
 import useLayers from '../../hooks/useLayers'
 import PopupInfo from './PopupInfo'
-import MapControls from './MapControls'
+import LotPriceEditor from './LotPriceEditor'
+import FloatingActions from '../Layout/FloatingActions'
+import MapDrawing from './MapDrawing'
+import {useWorkspace} from '../../context/WorkspaceContext'
 import MeasurementTools from '../Tools/MeasurementTools'
+import { useAuth } from '../../context/AuthContext'
+import { api, logAction } from '../../services/api'
 import { useMapContext } from '../../context/MapContext'
 
 export default function MapContainer() {
   const containerRef = useRef(null)
+  const [activeLot, setActiveLot] = useState(null)
+  const [priceEditor, setPriceEditor] = useState(null)
 
   useMapbox(containerRef)
   useLayers()
 
-  const { map, setSelectedFeature, measureMode } = useMapContext()
+  const { map, setSelectedFeature, measureMode, actualizarLotes } = useMapContext()
+  const {user}=useAuth()
+  const {drawing,open,openLotEditor}=useWorkspace()
 
   useEffect(() => {
     if (!map) return
@@ -25,17 +35,26 @@ export default function MapContainer() {
     const showPopup = (feature, lngLat) => {
       popup?.remove()
       popupRoot?.unmount()
+      popup = null
+      popupRoot = null
 
       const node = document.createElement('div')
       popupRoot = ReactDOM.createRoot(node)
-      popupRoot.render(
-        <PopupInfo properties={feature.properties} />
-      )
+      const isLot=!!feature.properties?.estado
+      popupRoot.render(<PopupInfo properties={feature.properties}
+        canEdit={isLot && (user.rol==='admin'||user.rol==='editor')}
+        canRevertSale={user.rol==='admin'}
+        onOpenManager={openLotEditor}
+        onChangeStatus={async(id,estado,operacion)=>{
+          const result=await api(`/lots/${id}`,{method:'PATCH',body:{estado,operacion}})
+          actualizarLotes()
+          return result
+        }}/>)
 
       popup = new mapboxgl.Popup({
         closeButton: true,
         closeOnClick: true,
-        maxWidth: '320px'
+        maxWidth: '370px'
       })
         .setLngLat(lngLat)
         .setDOMContent(node)
@@ -47,7 +66,7 @@ export default function MapContainer() {
         .filter(layerId => map.getLayer(layerId))
 
     const handleClick = event => {
-      if (measureMode) return
+      if (measureMode || drawing) return
 
       const layers = interactiveLayers()
       if (!layers.length) return
@@ -57,17 +76,40 @@ export default function MapContainer() {
       if (!feature) return
 
       if (feature.layer.id === 'lotes-fill') {
+        popup?.remove()
+        popupRoot?.unmount()
+        popup = null
+        popupRoot = null
         setSelectedFeature(feature)
-        showPopup(feature, event.lngLat)
+        setActiveLot({properties: feature.properties, version: Date.now()})
+        // Enfocar el lote dentro del espacio visible y fuera de la ficha lateral.
+        try {
+          const [west, south, east, north] = bbox(feature)
+          if ([west, south, east, north].every(Number.isFinite)) {
+            const canvasWidth = map.getCanvas().clientWidth
+            map.fitBounds([[west, south], [east, north]], {
+              padding: canvasWidth > 900
+                ? {top: 65, bottom: 65, left: Math.min(620, canvasWidth * 0.52), right: 65}
+                : 55,
+              maxZoom: 20,
+              duration: 850,
+              essential: true
+            })
+          }
+        } catch (error) {
+          if (import.meta.env.DEV) console.warn('GeoMax: no se pudo acercar al lote', error)
+        }
+        logAction('consulta_lote', feature.properties?.codigo || '', feature.properties?.id || '')
       }
 
       if (feature.layer.id === 'puntos-unclustered') {
+        setActiveLot(null)
         showPopup(feature, feature.geometry.coordinates)
       }
     }
 
     const handleMove = event => {
-      if (measureMode) return
+      if (measureMode || drawing) return
 
       const layers = interactiveLayers()
       if (!layers.length) {
@@ -117,13 +159,59 @@ export default function MapContainer() {
         map.getCanvas().style.cursor = ''
       }
     }
-  }, [map, setSelectedFeature, measureMode])
+  }, [map, setSelectedFeature, measureMode, drawing, user, actualizarLotes, open, openLotEditor])
 
-  const missingToken = !import.meta.env.VITE_MAPBOX_TOKEN
+  const token = import.meta.env.VITE_MAPBOX_TOKEN?.trim()
+  const missingToken = !token || token === 'pega_aqui_tu_token_publico_de_mapbox'
 
   return (
     <div className="map-root">
       <div ref={containerRef} className="map-canvas" />
+
+      {activeLot && (
+        <section className="gm-map-inspector" aria-label={`Información del lote ${activeLot.properties?.codigo || ''}`}>
+          <button
+            type="button"
+            className="gm-map-inspector__close"
+            aria-label="Cerrar información del lote"
+            onClick={() => {setActiveLot(null);setSelectedFeature(null)}}
+          >×</button>
+          <PopupInfo
+            key={`${activeLot.properties.id}-${activeLot.version}`}
+            properties={activeLot.properties}
+            canEdit={user.rol === 'admin' || user.rol === 'editor'}
+            canRevertSale={user.rol === 'admin'}
+            onOpenManager={id => {setPriceEditor({id,properties:activeLot.properties});setActiveLot(null)}}
+            onChangeStatus={async (id, estado, operacion) => {
+              const result = await api(`/lots/${id}`, {method:'PATCH',body:{estado,operacion}})
+              actualizarLotes()
+              if(result?.feature?.properties){
+                setActiveLot(previous => previous?.properties?.id === id
+                  ? {...previous, properties: result.feature.properties}
+                  : previous)
+              }
+              return result
+            }}
+          />
+        </section>
+      )}
+
+      {priceEditor && (
+        <LotPriceEditor
+          lotId={priceEditor.id}
+          initialProperties={priceEditor.properties}
+          onClose={() => {
+            setActiveLot({properties:priceEditor.properties,version:Date.now()})
+            setPriceEditor(null)
+          }}
+          onSaved={feature => {
+            actualizarLotes()
+            setSelectedFeature(feature)
+            setActiveLot({properties:feature.properties,version:Date.now()})
+            setPriceEditor(null)
+          }}
+        />
+      )}
 
       {missingToken && (
         <div className="map-message">
@@ -131,15 +219,16 @@ export default function MapContainer() {
             <strong>Token de Mapbox no configurado</strong>
             <p>
               Crea un archivo <code>.env</code> en la raíz del proyecto y define
-              <code> VITE_MAPBOX_TOKEN</code> usando como referencia
+              <code> VITE_MAPBOX_TOKEN</code> siguiendo la configuración de
               <code> .env.example</code>.
             </p>
           </div>
         </div>
       )}
 
-      <MapControls />
-      <MeasurementTools />
+      <MeasurementTools showToolbar={false} />
+      <MapDrawing />
+      <FloatingActions />
     </div>
   )
 }

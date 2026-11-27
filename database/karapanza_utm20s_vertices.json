@@ -1,0 +1,26 @@
+{
+  "titulo": "Karapanza de Corazón III",
+  "srid_utm": 32720,
+  "datum_utm": "WGS84 no explícito en el plano, supuesto por cercanía con ubicación entregada",
+  "vertices": {
+    "V-1": [
+      264949.395,
+      7883987.731
+    ],
+    "V-2": [
+      265039.425,
+      7884057.941
+    ],
+    "V-3": [
+      265117.034,
+      7883974.502
+    ],
+    "V-4": [
+      265053.002,
+      7883868.33
+    ]
+  },
+  "area_plano_m2": 14645.16,
+  "area_geometrica_m2": 15803.29,
+  "nota": "Inconsistencia entre superficie en el plano y área del polígono calculada con los cuatro vértices. Revisar con profesional topógrafo."
+}

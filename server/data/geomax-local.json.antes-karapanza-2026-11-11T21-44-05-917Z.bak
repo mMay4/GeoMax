@@ -1,0 +1,694 @@
+{
+  "users": [
+    {
+      "id": "e1839efc-6a90-464d-82ba-654c664128af",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "usuario": "vendedor.1",
+      "rol": "admin",
+      "activo": true,
+      "hash": "708f7ea5bf8ded73eb94efc6c75a07f9:f3cf0ed933afb2aa0265d27607cef4cf241eb5ce287161397fa10104cd8e34f7fd3758460f42b9516a35b40887bd103a9f7fc9e74bbe77c654e77b8f0e0a634b",
+      "creado": "2026-11-11T21:03:24.454Z"
+    },
+    {
+      "id": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "hash": "0c61372ac37efaf20489760e1d2d0d9a:042a6d003436b7b4e785dad6e3a7bedc897a1c54b1134d9691516fa9623e2a346ece40e81589cd0420ae6503cc4cd352f25d410eed259a7841c0d22475fa45e5",
+      "rol": "lector",
+      "activo": true,
+      "creado": "2026-11-11T21:12:38.200Z"
+    }
+  ],
+  "audit": [
+    {
+      "id": "3361b741-47e9-4cc2-88c0-2dd2e8ec4c54",
+      "fecha": "2026-11-11T21:03:24.454Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_cuenta_inicial",
+      "detalle": "Administrador inicial",
+      "referencia": ""
+    },
+    {
+      "id": "31ffe863-fc14-4db1-9dff-2d77fa616727",
+      "fecha": "2026-11-11T21:03:24.457Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Primer acceso",
+      "referencia": ""
+    },
+    {
+      "id": "24d673c3-0e35-4730-bf1f-3007233d7151",
+      "fecha": "2026-11-11T21:04:23.962Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "acce7cab-8cba-402e-bbfc-e3b483b4e9ab",
+      "fecha": "2026-11-11T21:04:29.435Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "ab858552-0154-4261-ba61-cb2d84381564",
+      "fecha": "2026-11-11T21:04:35.519Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "dark",
+      "referencia": ""
+    },
+    {
+      "id": "35805f4a-5d86-4d5c-848f-7d778b97d62c",
+      "fecha": "2026-11-11T21:04:44.202Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "0b037dbf-8e03-4fd6-92e4-1aee871816e4",
+      "fecha": "2026-11-11T21:04:44.788Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "93f0dbe2-ef92-429e-9f89-220d35d2c5b9",
+      "fecha": "2026-11-11T21:04:45.570Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "e0a31953-ec34-4fa0-b709-40ecdca11438",
+      "fecha": "2026-11-11T21:04:46.124Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "lotes: visible",
+      "referencia": ""
+    },
+    {
+      "id": "ddca7d25-4f3a-430f-908a-7e634d0363cc",
+      "fecha": "2026-11-11T21:04:46.740Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "ed48d79a-8c21-4023-bde3-e7dd81a5ebbb",
+      "fecha": "2026-11-11T21:04:47.236Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "4af91d8e-d589-4096-890c-99b0738763e0",
+      "fecha": "2026-11-11T21:04:51.084Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "streets",
+      "referencia": ""
+    },
+    {
+      "id": "e7fd4579-d547-46a9-9a02-066a68153951",
+      "fecha": "2026-11-11T21:04:56.675Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "b955a67f-a4f1-489b-9919-d8a38b687b93",
+      "fecha": "2026-11-11T21:04:57.702Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "fbc9d449-c3e2-460f-a417-08d1b47bc3dd",
+      "fecha": "2026-11-11T21:05:02.484Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_vista",
+      "detalle": "dark",
+      "referencia": ""
+    },
+    {
+      "id": "bb2ea671-7e26-4099-b80b-1542f7b4838e",
+      "fecha": "2026-11-11T21:05:09.189Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Urbanización Demo MAX",
+      "referencia": "URB-001"
+    },
+    {
+      "id": "f7493e84-2f5e-4b16-a0d7-674e8f8b5c9a",
+      "fecha": "2026-11-11T21:12:38.200Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_usuario",
+      "detalle": "usuario.2 (lector)",
+      "referencia": "fbe54836-9acc-4302-80c7-ecfafcf13987"
+    },
+    {
+      "id": "d30f64f6-dbd7-444f-abc6-e1d75d0e7de6",
+      "fecha": "2026-11-11T21:12:52.447Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "exportar_reporte",
+      "detalle": "Reporte PDF/impresión de 4 lotes",
+      "referencia": ""
+    },
+    {
+      "id": "38495455-a856-4ffa-9806-03c11fe79517",
+      "fecha": "2026-11-11T21:13:26.909Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "2333a9bc-6cb0-41f4-9b52-dd0ebf7273cd",
+      "fecha": "2026-11-11T21:16:13.355Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "612c0728-6aa4-4c72-af02-9aa8947c16a7",
+      "fecha": "2026-11-11T21:16:14.063Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "7499d63d-7fda-40d0-9bd3-8bf5f262859f",
+      "fecha": "2026-11-11T21:16:23.365Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_vista",
+      "detalle": "satellite",
+      "referencia": ""
+    },
+    {
+      "id": "3bb4bf61-9530-4de6-9a3f-eafb7687f899",
+      "fecha": "2026-11-11T21:16:28.722Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "d09638d1-92cf-46ed-a58c-db93dbf36e6d",
+      "fecha": "2026-11-11T21:16:34.303Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "7613452b-1de1-43b5-8793-3570308b8162",
+      "fecha": "2026-11-11T21:16:34.920Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "fc93a56a-5f29-4d35-92a0-2485fc610098",
+      "fecha": "2026-11-11T21:16:34.926Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "30211ba8-1651-4b52-9df2-1026452ee30b",
+      "fecha": "2026-11-11T21:16:41.242Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "6b99c407-b285-43fa-9591-4e3047b73cb3",
+      "fecha": "2026-11-11T21:16:41.896Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "urbanizaciones: visible",
+      "referencia": ""
+    },
+    {
+      "id": "80232a3a-9313-4112-be2e-714c39ef087b",
+      "fecha": "2026-11-11T21:16:50.060Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cambio_capa",
+      "detalle": "puntos: oculta",
+      "referencia": ""
+    },
+    {
+      "id": "f342a478-12c9-48e0-ba41-26b2ba7a8714",
+      "fecha": "2026-11-11T21:16:59.044Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.276706, -19.054589 · B: -65.275006, -19.053225 · 234.4 m",
+      "referencia": ""
+    },
+    {
+      "id": "028f7430-b676-4ad4-afca-97c2e0814ec3",
+      "fecha": "2026-11-11T21:17:09.684Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "medicion_superficie",
+      "detalle": "3 vértices · 4.804 ha",
+      "referencia": ""
+    },
+    {
+      "id": "2a89df86-b75a-45f1-b16a-d7af5270c857",
+      "fecha": "2026-11-11T21:18:19.186Z",
+      "usuarioId": "fbe54836-9acc-4302-80c7-ecfafcf13987",
+      "usuario": "usuario.2",
+      "nombre": "Doris",
+      "accion": "cierre_sesion",
+      "detalle": "Salida del sistema",
+      "referencia": ""
+    },
+    {
+      "id": "bb11af66-5cf9-4cc1-b6f0-1cdaebfb3cca",
+      "fecha": "2026-11-11T21:18:27.425Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "inicio_sesion",
+      "detalle": "Acceso al geovisor",
+      "referencia": ""
+    },
+    {
+      "id": "6ff19c79-c1e2-46cc-8b60-c1fa83d9b28f",
+      "fecha": "2026-11-11T21:32:00.350Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "cambio_capa",
+      "detalle": "puntos: visible",
+      "referencia": ""
+    },
+    {
+      "id": "21c8b06b-5f44-4d6e-bb93-2369cda26e79",
+      "fecha": "2026-11-11T21:33:07.252Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "creacion_cotizacion",
+      "detalle": "COT-623700C3 · Lote 001 · Bs 78000",
+      "referencia": "COT-623700C3"
+    },
+    {
+      "id": "0c8e7b3e-2108-4502-88c0-52c299bbd164",
+      "fecha": "2026-11-11T21:33:10.524Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_cotizacion",
+      "detalle": "Impresión de COT-623700C3",
+      "referencia": "COT-623700C3"
+    },
+    {
+      "id": "c20be379-874d-4640-a3a0-5931198636bf",
+      "fecha": "2026-11-11T21:33:33.379Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "max iversiones",
+      "referencia": ""
+    },
+    {
+      "id": "e94629f9-fd1f-4eed-a3a4-1fe3cad36beb",
+      "fecha": "2026-11-11T21:33:36.990Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "max inversiones",
+      "referencia": ""
+    },
+    {
+      "id": "c6f4bb21-25c3-4b4d-9249-2c592ae2c594",
+      "fecha": "2026-11-11T21:33:44.275Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "busqueda",
+      "detalle": "azari",
+      "referencia": ""
+    },
+    {
+      "id": "50ee1034-c6c2-4d10-9b29-f56a4c4e2737",
+      "fecha": "2026-11-11T21:34:52.191Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "medicion_distancia",
+      "detalle": "A: -65.238711, -19.097638 · B: -65.234695, -19.097836 · 422.6 m",
+      "referencia": ""
+    },
+    {
+      "id": "a07129fc-e62a-4ca1-9d9e-ea93c413517b",
+      "fecha": "2026-11-11T21:43:19.180Z",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af",
+      "usuario": "vendedor.1",
+      "nombre": "Ariana Maya Calderon Gonzales",
+      "accion": "consulta_urbanizacion",
+      "detalle": "Urbanización Demo MAX",
+      "referencia": "URB-001"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "COT-623700C3",
+      "lotId": "L-001",
+      "codigo": "Lote 001",
+      "urbanizacion": "Urbanización Demo MAX",
+      "superficie_m2": 250,
+      "cliente": "Pablo",
+      "amount": 78000,
+      "observaciones": "Al credito y contado",
+      "fecha": "2026-11-11T21:33:07.252Z",
+      "usuario": "vendedor.1",
+      "usuarioId": "e1839efc-6a90-464d-82ba-654c664128af"
+    }
+  ],
+  "collections": {
+    "urbanizaciones": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "URB-001",
+            "nombre": "Urbanización Demo MAX",
+            "ciudad": "Sucre"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2817,
+                  -19.0561
+                ],
+                [
+                  -65.276,
+                  -19.0561
+                ],
+                [
+                  -65.2756,
+                  -19.0515
+                ],
+                [
+                  -65.2814,
+                  -19.0514
+                ],
+                [
+                  -65.2817,
+                  -19.0561
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "lotes": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "L-001",
+            "codigo": "Lote 001",
+            "estado": "disponible",
+            "superficie_m2": 250,
+            "urbanizacion": "Urbanización Demo MAX"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2813,
+                  -19.0557
+                ],
+                [
+                  -65.2799,
+                  -19.0557
+                ],
+                [
+                  -65.2799,
+                  -19.0544
+                ],
+                [
+                  -65.2813,
+                  -19.0544
+                ],
+                [
+                  -65.2813,
+                  -19.0557
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "L-002",
+            "codigo": "Lote 002",
+            "estado": "reservado",
+            "superficie_m2": 250,
+            "urbanizacion": "Urbanización Demo MAX"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2798,
+                  -19.0557
+                ],
+                [
+                  -65.2784,
+                  -19.0557
+                ],
+                [
+                  -65.2784,
+                  -19.0544
+                ],
+                [
+                  -65.2798,
+                  -19.0544
+                ],
+                [
+                  -65.2798,
+                  -19.0557
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "L-003",
+            "codigo": "Lote 003",
+            "estado": "vendido",
+            "superficie_m2": 250,
+            "urbanizacion": "Urbanización Demo MAX"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2783,
+                  -19.0557
+                ],
+                [
+                  -65.2769,
+                  -19.0557
+                ],
+                [
+                  -65.2769,
+                  -19.0544
+                ],
+                [
+                  -65.2783,
+                  -19.0544
+                ],
+                [
+                  -65.2783,
+                  -19.0557
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "L-004",
+            "codigo": "Lote 004",
+            "estado": "disponible",
+            "superficie_m2": 300,
+            "urbanizacion": "Urbanización Demo MAX"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -65.2813,
+                  -19.0542
+                ],
+                [
+                  -65.2798,
+                  -19.0542
+                ],
+                [
+                  -65.2798,
+                  -19.0528
+                ],
+                [
+                  -65.2813,
+                  -19.0528
+                ],
+                [
+                  -65.2813,
+                  -19.0542
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "puntos": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "POI-001",
+            "nombre": "Colegio cercano",
+            "tipo": "colegio"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -65.2749,
+              -19.0508
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "POI-002",
+            "nombre": "Centro de salud cercano",
+            "tipo": "salud"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -65.2832,
+              -19.0498
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "id": "POI-003",
+            "nombre": "Parada de transporte",
+            "tipo": "transporte"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -65.279,
+              -19.0581
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

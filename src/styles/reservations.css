@@ -1,0 +1,65 @@
+/* GeoMax: reservas, ventas y avisos; conserva identidad MAX Inversiones. */
+.app-shell .gm-lot-operation{border:1px solid #e5d1b4;background:#fff9ef;border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.app-shell .gm-lot-operation h4{margin:0;color:#308056;font-weight:800;font-size:13px}
+.app-shell .gm-lot-operation label{display:flex;flex-direction:column;gap:5px;color:#385944;font-size:11px;font-weight:600}
+.app-shell .gm-lot-operation input,.app-shell .gm-lot-operation select{width:100%;min-height:33px;padding:7px;border:1px solid #d8d5c6;border-radius:7px;background:white;color:#21402c;font-size:11px}
+.app-shell .gm-quick-times{display:flex;flex-wrap:wrap;gap:5px}
+.app-shell .gm-quick-times button{background:#fff;border:1px solid #eacb9a;color:#8e510a;padding:6px;border-radius:7px;cursor:pointer;font-size:10px}
+.app-shell .gm-quick-times button:hover{background:#fff0d8}
+.app-shell .gm-status-notice{border-left:3px solid #FC8801;padding:7px 9px;background:#fff7e6;margin:0;color:#73500b;line-height:1.5;font-size:11px}
+.app-shell .gm-countdown{display:inline-flex;gap:4px;align-items:center;flex-wrap:wrap;color:#356848;background:#edf6ef;border:1px solid #cce5cf;border-radius:6px;padding:3px 7px;font-size:10px;font-weight:700;margin-top:3px;max-width:max-content}
+.app-shell .gm-countdown.expired{color:#ad452f;background:#fff0e5;border-color:#f4d5c4}
+.app-shell .gm-operation-card{display:flex;flex-direction:column;gap:4px;padding:10px;border:1px solid #e4ddc9;border-radius:9px;background:white;margin:6px 0}
+.app-shell .gm-operation-card strong{color:#308056}
+.app-shell .gm-operation-card small{color:#5c665c;font-size:10px;overflow-wrap:anywhere}
+.app-shell .gm-operation-card a{display:inline-flex;color:#176f45;font-weight:700;font-size:10px;text-decoration:underline;max-width:max-content}
+/* Campana en el encabezado original. */
+.app-shell .header.gm-header{z-index:130}
+.app-shell .gm-notifications{position:relative;flex-shrink:0}
+.app-shell .gm-notification-button{position:relative;display:grid;place-items:center;height:36px;width:38px;border:1px solid #fff9;border-radius:12px;background:#fff9;color:#308056;cursor:pointer}
+.app-shell .gm-notification-counter{position:absolute;right:-6px;top:-7px;background:#308056;border:1px solid white;color:#fff;min-width:18px;height:18px;padding:2px 4px;border-radius:12px;font-size:10px;font-weight:800}
+.app-shell .gm-notification-panel{position:absolute;right:0;top:calc(100% + 10px);width:min(390px,calc(100vw - 18px));max-height:min(75vh,600px);overflow:auto;padding:13px;background:#fffdf9;border:1px solid #e6cda9;border-radius:12px;box-shadow:0 12px 34px #22181035;color:#264830;font:11px 'Poppins',sans-serif}
+.app-shell .gm-notification-title{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-bottom:6px}
+.app-shell .gm-notification-title strong{font-size:13px;color:#308056}
+.app-shell .gm-notification-title button{border:0;background:transparent;color:#426b50;cursor:pointer}
+.app-shell .gm-notification-items{display:flex;flex-direction:column;gap:9px;margin-top:9px}
+.app-shell .gm-notification-items article{padding:10px;border:1px solid #e0d8c6;border-radius:8px;background:white;display:flex;flex-direction:column;gap:5px}
+.app-shell .gm-notification-items article.gm-notification-unread{background:#fff4e4;border-left:4px solid #FC8801}
+.app-shell .gm-notification-items strong{font-size:11px;color:#2e714b}
+.app-shell .gm-notification-items small{color:#6a6e60;font-size:10px}
+.app-shell .gm-notification-items p{margin:0;color:#405248;line-height:1.5}
+.app-shell .gm-notification-actions{display:flex;flex-wrap:wrap;gap:5px;margin-top:5px}
+.app-shell .gm-notification-actions button,.app-shell .gm-notification-actions a{display:inline-flex;align-items:center;gap:5px;padding:6px 8px;background:white;border:1px solid #d5ceaf;border-radius:7px;color:#2f6440;font:600 10px 'Poppins',sans-serif;text-decoration:none;cursor:pointer}
+.app-shell .gm-notification-actions a{background:#e5f5e8;border-color:#a5d1ae}
+/* Popup de Mapbox admite formularios largos y contiene scroll. */
+.mapboxgl-popup-content .geomax-popup-card{max-height:min(70vh,560px);overflow:auto;max-width:100%}
+.mapboxgl-popup-content .gm-popup-status-form{display:flex;flex-direction:column;gap:9px;margin-top:8px}
+.mapboxgl-popup-content .gm-lot-operation{padding:10px;background:#fff9ef;border:1px solid #e5d1b4;border-radius:8px;display:flex;flex-direction:column;gap:8px}
+.mapboxgl-popup-content .gm-lot-operation h4{font-size:12px;color:#308056;margin:0}
+.mapboxgl-popup-content .gm-lot-operation label{display:flex;flex-direction:column;gap:4px;font-size:11px;color:#3c5242}
+.mapboxgl-popup-content .gm-lot-operation input,.mapboxgl-popup-content .gm-lot-operation select{padding:6px;border:1px solid #d5cebd;border-radius:6px;width:100%;background:white;color:#25422f}
+.mapboxgl-popup-content .gm-two-col{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.mapboxgl-popup-content .gm-quick-times{display:flex;flex-wrap:wrap;gap:4px}
+.mapboxgl-popup-content .gm-quick-times button{border:1px solid #e4c797;background:white;color:#a96800;padding:5px;border-radius:6px;font-size:10px}
+.mapboxgl-popup-content .gm-note{font-size:10px;color:#647065;margin:0}
+.mapboxgl-popup-content .gm-popup-countdown{background:#eaf5ed;padding:6px;border-radius:5px;font-size:10px}
+.mapboxgl-popup-content .gm-countdown{display:inline-block;color:#308056;font-weight:700}
+.mapboxgl-popup-content .gm-popup-more{margin:4px 0 0;width:100%;cursor:pointer}
+@media(max-width:700px){.app-shell .gm-notification-panel{right:-51px;}.app-shell .gm-notification-button{width:31px;height:32px}}
+@media print{.app-shell .gm-notifications{display:none!important}}
+/* Datos del lote y plan de pagos en el popup cartográfico. */
+.mapboxgl-popup-content .gm-lot-popup{min-width:min(290px,calc(100vw - 68px));max-height:min(74vh,650px);padding-right:3px}
+.mapboxgl-popup-content .gm-lot-popup h3{color:#205638;font-size:17px;line-height:1.25;margin:1px 20px 7px 0}
+.mapboxgl-popup-content .gm-lot-popup .popup-table{width:100%;table-layout:fixed;margin:6px 0 10px;border-collapse:collapse}
+.mapboxgl-popup-content .gm-lot-popup .popup-table td{font-size:11px;line-height:1.4;padding:6px 4px;border-bottom:1px solid #e9efe9;vertical-align:top;overflow-wrap:anywhere}
+.mapboxgl-popup-content .gm-lot-popup .popup-table td:first-child{width:39%;color:#65776b;font-weight:500}
+.mapboxgl-popup-content .gm-lot-popup .popup-table td:last-child{color:#204c34;font-weight:600}
+.mapboxgl-popup-content .gm-lot-popup .popup-table strong{font-weight:800;color:#308056}
+.mapboxgl-popup-content .gm-popup-section-title{color:#308056;font-size:12px;font-weight:800;margin:14px 0 6px;padding-bottom:5px;border-bottom:2px solid #FC8801}
+.mapboxgl-popup-content .gm-popup-holder{background:#eef7ed;border:1px solid #bcdcc3;border-left:4px solid #FC8801;border-radius:8px;padding:9px 11px;margin:8px 0;display:flex;flex-direction:column;gap:3px}
+.mapboxgl-popup-content .gm-popup-holder strong{color:#2e6b45;font-size:11px}
+.mapboxgl-popup-content .gm-popup-holder span{font-size:12px;font-weight:800;color:#1c492e;overflow-wrap:anywhere}
+.mapboxgl-popup-content .gm-popup-holder small{font-size:10px;color:#55745c}
+.mapboxgl-popup-content .gm-popup-geometry-note{margin:7px 0;color:#666d60;font-size:10px;line-height:1.4}
+.mapboxgl-popup-content .gm-lot-popup .gm-popup-edit-prices{width:100%;background:#308056;color:#fff;border:1px solid #308056;padding:10px 8px;font-weight:800}
+.mapboxgl-popup-content .gm-lot-popup .gm-popup-edit-prices:hover{background:#22633f;color:white}

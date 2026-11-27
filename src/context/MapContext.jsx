@@ -1,14 +1,17 @@
-import { createContext, useContext, useMemo, useState } from 'react'
+import { createContext, useCallback, useContext, useMemo, useState } from 'react'
 
 const MapContext = createContext(null)
 
 export function MapProvider({ children }) {
   const [map, setMap] = useState(null)
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [baseMap, setBaseMap] = useState('streets')
+  const [baseMap, setBaseMap] = useState('satellite')
   const [selectedFeature, setSelectedFeature] = useState(null)
   const [measureMode, setMeasureMode] = useState(null)
   const [measureResult, setMeasureResult] = useState(null)
+  const [lotesRevision, setLotesRevision] = useState(0)
+  const actualizarLotes = useCallback(() => setLotesRevision(v => v + 1), [])
+  const actualizarDatos = actualizarLotes
   const [layerVisibility, setLayerVisibility] = useState({
     urbanizaciones: true,
     lotes: true,
@@ -22,10 +25,11 @@ export function MapProvider({ children }) {
     selectedFeature, setSelectedFeature,
     measureMode, setMeasureMode,
     measureResult, setMeasureResult,
+    lotesRevision, actualizarLotes, actualizarDatos,
     layerVisibility, setLayerVisibility
   }), [
     map, sidebarOpen, baseMap, selectedFeature,
-    measureMode, measureResult, layerVisibility
+    measureMode, measureResult, layerVisibility, lotesRevision
   ])
 
   return <MapContext.Provider value={value}>{children}</MapContext.Provider>

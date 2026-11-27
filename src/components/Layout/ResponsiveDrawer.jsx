@@ -1,11 +1,5 @@
-export default function ResponsiveDrawer({ open, onClose }) {
+export default function ResponsiveDrawer({ open }) {
   if (!open) return null
 
-  return (
-    <button
-      className="mobile-scrim"
-      onClick={onClose}
-      aria-label="Cerrar panel lateral"
-    />
-  )
+  return <div className="mobile-scrim" aria-hidden="true" />
 }
